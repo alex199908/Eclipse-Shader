@@ -257,7 +257,7 @@ screen.Direct_Light = 直接光照
         option.Max_Shadow_Filter_Radius = 最大陰影過濾半徑
         option.Max_Filter_Depth = 太陽大小因子
         
-    screen.LPV = 漫水填充彩色光照 (FloodFill) - §c需要 IRIS§r
+    screen.LPV = 洪水填充彩色光照 (FloodFill) - §c需要 IRIS§r
         option.LPV_ENABLED = 啟用
         option.LPV_SIZE = 大小
             value.LPV_SIZE.6 = 小 [64]
@@ -735,7 +735,7 @@ screen.World = 世界
         screen.WATER_SIM_DISCLAIMER = §c 如果使用波浪模擬，請閱讀這些設定的描述
         option.WATER_SIM_STRENGTH = 波浪模擬強度
 
-        option.PATCHY_WAVE_BLEND = 斑駁波浪混合
+        option.PATCHY_WAVE_BLEND = 碎塊波浪混合
         option.WAVES_A_RADIUS = 波浪半徑 1
         option.WAVES_B_RADIUS = 波浪半徑 2
         option.WAVE_DETAIL = 波浪細節
@@ -1034,11 +1034,11 @@ value.VANILLA_CHUNK_FADING.2 = 淡入 + 滑入
 option.FISHEYE_EFFECT = 魚眼效果
 option.FISHEYE_STRENGTH = 魚眼強度
 
-option.RAIN_BRIGHTNESS = 雨的亮度
+option.RAIN_BRIGHTNESS = 雨水亮度
 option.RAIN_MODE = 降雨模式
-    option.RAIN_MODE.comment = 指定原版雨粒子如何加入畫面。
+    option.RAIN_MODE.comment = 設定原版雨粒子的顯示方式。
     value.RAIN_MODE.0 = 增加亮度 (Bliss)
-    value.RAIN_MODE.1 = 使用粒子反照率
+    value.RAIN_MODE.1 = 使用粒子原色
 
 screen.scene_controller = 場景控制器
 option.USE_CUSTOM_DIFFUSE_LIGHTING_COLORS = 自訂漫反射顏色
@@ -1353,7 +1353,7 @@ screen.PHOTONICS_SETTINGS = 光子系統設定
     option.TRANSLUCENT_IN_REFLECTIONS = 反射中的半透明物體
     option.MIRROR_IRON = 鐵塊鏡面
     option.VOXEL_REFLECTIONS_FOG = 反射中的霧
-    option.VOXEL_REFLECTIONS_LPV_FOG = 反射中的泛洪填充霧光傳播
+    option.VOXEL_REFLECTIONS_LPV_FOG = 反射中的彩色光照霧光傳播 (FloodFill)
 
 option.TRANSLUCENT_COLORED_SHADOWS.comment = §b這是什麼？§r 此效果允許半透明物體（如染色玻璃）在陽光穿過時為其著色。 §a效能影響：§r 中
 option.MINIMUM_WATER_ABSORBANCE.comment = §b這是什麼？§r 這控制淺水區水的"清澈"程度。自動允許戶外水清澈，但在室內調整為最小值 7，以使其清晰可見。 §d此設定不影響水下視覺效果。
