@@ -257,7 +257,7 @@ screen.Direct_Light = 直接光照
         option.Max_Shadow_Filter_Radius = 最大陰影過濾半徑
         option.Max_Filter_Depth = 太陽大小因子
         
-    screen.LPV = 洪水填充彩色光照 (FloodFill) - §c需要 IRIS§r
+    screen.LPV = 漫水填充彩色光照 (FloodFill) - §c需要 IRIS§r
         option.LPV_ENABLED = 啟用
         option.LPV_SIZE = 大小
             value.LPV_SIZE.6 = 小 [64]
