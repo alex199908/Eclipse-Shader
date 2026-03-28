@@ -1,0 +1,1379 @@
+iris_extension.keybind.key0.name=手電筒
+
+option.SHADER_VERSION_LABEL = §d§lECLIPSE§r - Bliss 編輯版
+    prefix.SHADER_VERSION_LABEL = 版本
+    value.SHADER_VERSION_LABEL.482 = 8.0.2
+
+# 如果你是來翻譯的，這不是玩笑，這些選項的功能正如其名
+profile.POTATO=§4馬鈴薯 (極低配備)
+profile.VERY_LOW=§c非常低
+profile.LOW=§a低
+profile.MEDIUM=§2中等 §6§l(建議)
+profile.ALTERNATE_MEDIUM=§2中等 §7(替代風格)
+profile.HIGH=§b高 §6§l(建議)
+profile.ALTERNATE_HIGH=§b高 §7(替代風格)
+profile.HIGH_GRASS=§b高 + 光影草
+profile.ALTERNATE_HIGH_GRASS=§b高 + 光影草 §7(替代風格)
+profile.VERY_HIGH=§9非常高
+profile.ULTRA=§d極致 (Ultra)
+
+option.OLD_LIGHTLEAK_FIX = 舊版漏光修正
+option.CAVE_DETECTION = 洞穴偵測
+    value.CAVE_DETECTION.0 = 開啟
+    value.CAVE_DETECTION.1 = Y < 62.0
+    value.CAVE_DETECTION.2 = 關閉
+option.sunPathRotation = 太陽角度
+suffix.sunPathRotation = °
+option.sun_illuminance = 太陽亮度
+option.moon_illuminance = 月亮亮度
+option.MOONPHASE_BASED_MOONLIGHT = 基於月相的月光亮度
+option.LIGHTLEAKFIX_MODE = "漏光修正"模式
+    value.LIGHTLEAKFIX_MODE.0 = 無。 §c陽光會穿透牆壁§r
+    value.LIGHTLEAKFIX_MODE.1 = 間隙填充/縮放。 §c使陰影呈塊狀§r
+    value.LIGHTLEAKFIX_MODE.2 = 使用天空光照圖等級。 §c在低光照圖等級下無陽光§r
+
+option.colortype = 著色模式
+    value.colortype.1 = RGB 顏色 (上方)
+        option.sunColorR = 太陽顏色: 紅
+        option.sunColorG = 太陽顏色: 綠
+        option.sunColorB = 太陽顏色: 藍
+        option.moonColorR = 月亮顏色: 紅
+        option.moonColorG = 月亮顏色: 綠
+        option.moonColorB = 月亮顏色: 藍
+
+    value.colortype.2 = 開爾文色溫 (下方)
+        option.Sun_temp = 太陽色溫
+        suffix.Sun_temp = K
+        option.Moon_temp = 月亮色溫
+        suffix.Moon_temp = K
+screen.MoonOptions = 月亮設定
+    option.SMOOTH_MOON_ROTATION = 平滑月亮移動
+screen.SunOptions = 太陽設定
+    option.SMOOTH_SUN_ROTATION = 平滑太陽移動
+screen.Smoothing_Settings = 平滑設定
+screen.SMOOTHING_DISCLAIMER = §c 如果使用修改白天的模組：請將這些值設定為與模組相同的值
+screen.SMOOTHING_DISCLAIMER2 = §c 否則請勿更改它們
+option.dayStartTick = 白天開始遊戲刻
+option.nightStartTick = 夜晚開始遊戲刻
+option.daySpeed = 日間速度
+option.nightSpeed = 夜間速度
+screen.CUSTOM_MOON_SETTINGS = 自訂月亮設定
+    option.REALMOON = 真實月亮材質
+    option.MOON_NORMALS = 真實月亮法線 §c(需要自訂月亮旋轉！)§r
+    option.CUSTOM_MOON_ROTATION = 自訂月亮旋轉
+    option.CAELUM_SUPPORT = Caelum (ArdaCraft) 支援
+        option.CAELUM_SUPPORT.comment = §c需要自訂月亮旋轉。§r 將太陽/月亮投射的光線更改為 Caelum 指定的正確位置。
+    option.MOON_SIZE_SETTING = 月亮大小
+    option.MOON_LATITUDE = 緯度
+        suffix.MOON_LATITUDE = °
+    option.MONTH_LENGTH = 月份長度
+        value.MONTH_LENGTH.6 = 6 天
+        value.MONTH_LENGTH.7 = 7 天
+        value.MONTH_LENGTH.8 = 8 天
+        value.MONTH_LENGTH.9 = 9 天
+        value.MONTH_LENGTH.10 = 10 天
+        value.MONTH_LENGTH.11 = 11 天
+        value.MONTH_LENGTH.12 = 12 天
+        value.MONTH_LENGTH.13 = 13 天
+        value.MONTH_LENGTH.14 = 14 天
+        value.MONTH_LENGTH.15 = 15 天
+        value.MONTH_LENGTH.16 = 16 天
+    option.EARTH_ROTATION_TILT = 地球自轉傾角
+        suffix.EARTH_ROTATION_TILT = °
+    screen.CUSTOM_MOON_ROTATION_DISCLAIMER = §c更改以下值可能會阻止日食發生！§r
+    screen.CUSTOM_MOON_ROTATION_DISCLAIMER2 = §c更改太陽角度可能會阻止日食發生！§r
+    screen.CUSTOM_MOON_ROTATION_DISCLAIMER3 = §c在 -35° 和 -45° 時，每個遊戲年保證發生一次日食！§r
+    option.MOON_TIME_OFFSET = 月亮時間偏移 (遊戲刻)
+    option.CUSTOM_SHADOWS_QUALITY = 自訂陰影視錐剔除 (Culling)
+        value.CUSTOM_SHADOWS_QUALITY.0 = 關閉
+        value.CUSTOM_SHADOWS_QUALITY.1 = 效能優先 (Fast)
+        value.CUSTOM_SHADOWS_QUALITY.2 = 畫質優先 (Fancy)
+        option.CUSTOM_SHADOWS_QUALITY.comment = 指定自訂光源位置（月亮、閃電、終界）的視錐剔除 (Culling)。可能導致一些不應被視錐剔除 (Culling)的陰影被視錐剔除 (Culling)
+screen.EndLighting = 終界光照
+    option.END_ISLAND_LIGHT = 主終界島光源
+    option.Max_Filter_Depth_END = 光源大小因子
+    option.Min_Shadow_Filter_Radius_END = 最小陰影過濾半徑
+
+option.STARS_AMOUNT = 星星數量
+option.STARS_BRIGHTNESS = 星星亮度
+screen.Misc_Settings = 其他設定
+
+screen.EXPERIMENTAL_STUFF = 實驗性功能
+    value.MAX_COLORS_PER_CHANNEL.0 = 無限制
+option.BLOOMY_PARTICLES = 粒子泛光效果
+option.BIOME_TINT_WATER = 生態域色調水體
+option.HYPER_DETAILED_WAVES = 超細節水波
+option.LIT_PARTICLE_BRIGHTNESS = 提高粒子亮度
+option.WATER_CAUSTICS_BRIGHTNESS = 水體焦散光斑 (Water Caustics)線亮度
+option.WATER_CAUSTICS_POWER = 水體焦散光斑 (Water Caustics)線強度
+option.FORCE_TRANSLUCENT_GLASS = 強制半透明玻璃
+option.LARGE_WAVE_DISPLACEMENT = 大型波浪
+option.VANILLA_LIKE_WATER = 原版水體樣式
+
+screen.DEBUG_STUFF = §c除錯設定§r
+screen.LEGACY_STUFF = 舊版設定
+option.ORIGINAL_CHOCAPIC_SKY = Chocapic天空
+option.OLD_BLOOM = 舊版泛光
+option.OLD_CAVE_DETECTION = 舊版洞穴偵測
+option.CLOUD_PHASE = 雲的相位
+option.OLD_STARS = 舊版星星
+
+option.TRANSLUCENT_ENTITIES = 半透明實體
+
+screen.selection_box_outline = 方塊選取框
+option.SELECT_BOX = 選取框
+option.RAINBOW_SELECT_BOX = 彩虹選取框
+    value.RAINBOW_SELECT_BOX.0 = 關閉
+    value.RAINBOW_SELECT_BOX.1 = 靜態
+    value.RAINBOW_SELECT_BOX.2 = 動態
+option.SELECT_BOX_COL_R = 紅
+option.SELECT_BOX_COL_G = 綠
+option.SELECT_BOX_COL_B = 藍
+
+screen.Mod_support = 支援的模組設定
+
+option.RESOURCEPACK_SKY = 資源包天空 §c(略有錯誤)
+    value.RESOURCEPACK_SKY.0 = 請勿使用
+    value.RESOURCEPACK_SKY.1 = 天空 + 光影太陽/月亮
+    value.RESOURCEPACK_SKY.2 = 完整天空
+    value.RESOURCEPACK_SKY.3 = 光影天空 + 資源包太陽/月亮
+
+screen.Foliage = 植被
+    option.WAVY_PLANTS = 植物擺動
+    option.WAVY_STRENGTH = 擺動強度
+    option.WAVY_SPEED = 擺動速度
+
+    option.SHADER_GRASS_SETTING = 光影草 §c(Iris 1.7+)
+    option.GRASS_BASE_THICKNESS = 草葉基礎厚度
+    option.GRASS_THICKNESS_FALLOFF = 草厚度衰減
+        option.GRASS_THICKNESS_FALLOFF.comment = 控制每片草葉變窄的速度。1.0 時，它將保持相同厚度直到葉尖
+    option.BASE_GRASS_HEIGHT = 草基礎高度
+        option.BASE_GRASS_HEIGHT.comment = 普通草的高度
+    option.SHORT_GRASS_HEIGHT = 矮草高度
+        option.SHORT_GRASS_HEIGHT.comment = 被替換的原版矮草的高度
+    option.REPLACE_SHORT_GRASS = 替換原版矮草
+        option.REPLACE_SHORT_GRASS.comment = 控制如何處理原版矮草
+        value.REPLACE_SHORT_GRASS.0 = 否
+        value.REPLACE_SHORT_GRASS.1 = 是
+        value.REPLACE_SHORT_GRASS.2 = 僅矮草
+    option.GRASS_DETECT_FALLOFF = 草底部檢測
+        option.GRASS_DETECT_FALLOFF.comment = 這會縮短草邊緣周圍的草葉高度
+    option.GRASS_DETECT_INV_FALLOFF = 草側面檢測
+        option.GRASS_DETECT_INV_FALLOFF.comment = 如果旁邊有方塊或矮草，這會增加草葉高度
+    option.GRASS_DENSITY = 草密度
+        value.GRASS_DENSITY.0 = 低
+        value.GRASS_DENSITY.1 = 中
+        value.GRASS_DENSITY.2 = 高
+        value.GRASS_DENSITY.3 = 非常高
+    option.GRASS_QUALITY = 草品質
+        option.GRASS_QUALITY.comment = 控制一片草葉可以擁有的最大三角形數量。低：3個三角形。中：5個三角形。高：7個三角形
+        value.GRASS_QUALITY.0 = 低
+        value.GRASS_QUALITY.1 = 中
+        value.GRASS_QUALITY.2 = 高
+    option.GRASS_RANGE = 草最遠範圍
+    option.GRASS_WAVY_STRENGTH = 草擺動強度
+    option.GRASS_RANDOMNESS = 草隨機性強度
+    option.GRASS_NOISE1_SCALE = 草隨機性噪聲1 比例
+    option.GRASS_NOISE2_SCALE = 草隨機性噪聲2 比例
+
+
+screen.Direct_Light = 直接光照
+    screen.Shadows = 陰影
+        option.TRANSLUCENT_COLORED_SHADOWS = 彩色陰影
+        option.SCREENSPACE_CONTACT_SHADOWS = 螢幕空間接觸陰影
+            value.SCREENSPACE_CONTACT_SHADOWS.0 = 關閉
+            value.SCREENSPACE_CONTACT_SHADOWS.1 = 陰影距離之外
+            value.SCREENSPACE_CONTACT_SHADOWS.2 = 開啟
+        option.RENDER_ENTITY_SHADOWS = 實體陰影
+        option.RENDER_PLAYER_SHADOWS = 玩家陰影
+        option.shadowMapResolution = 陰影貼圖解析度
+        option.shadowDistance = 陰影繪製距離
+            value.shadowDistance.32.0 = 2 區塊
+            value.shadowDistance.48.0 = 3 區塊
+            value.shadowDistance.64.0 = 4 區塊
+            value.shadowDistance.80.0 = 5 區塊
+            value.shadowDistance.96.0 = 6 區塊
+            value.shadowDistance.112.0 = 7 區塊
+            value.shadowDistance.128.0 = 8 區塊
+            value.shadowDistance.144.0 = 9 區塊
+            value.shadowDistance.160.0 = 10 區塊
+            value.shadowDistance.176.0 = 11 區塊
+            value.shadowDistance.192.0 = 12 區塊
+            value.shadowDistance.208.0 = 13 區塊
+            value.shadowDistance.224.0 = 14 區塊
+            value.shadowDistance.240.0 = 15 區塊
+            value.shadowDistance.256.0 = 16 區塊
+            value.shadowDistance.272.0 = 17 區塊 §c不建議§r
+            value.shadowDistance.288.0 = 18 區塊 §c不建議§r
+            value.shadowDistance.304.0 = 19 區塊 §c不建議§r
+            value.shadowDistance.320.0 = 20 區塊 §c不建議§r
+            value.shadowDistance.336.0 = 21 區塊 §c不建議§r
+            value.shadowDistance.352.0 = 22 區塊 §c不建議§r
+            value.shadowDistance.368.0 = 23 區塊 §c不建議§r
+            value.shadowDistance.384.0 = 24 區塊 §c不建議§r
+            value.shadowDistance.512.0 = 32 區塊 §c不建議§r
+            value.shadowDistance.768.0 = 48 區塊 §c不建議§r
+            value.shadowDistance.1024.0 = 64 區塊 §c不建議§r
+            value.shadowDistance.1536.0 = 96 區塊 §c不建議§r
+            value.shadowDistance.2048.0 = 128 區塊 §c不建議§r
+            value.shadowDistance.4096.0 = 256 區塊 §c不建議§r
+            value.shadowDistance.8192.0 = 512 區塊 §c不建議§r
+
+        option.entityShadowDistanceMul = 實體陰影繪製距離
+            value.entityShadowDistanceMul.0.01 = 陰影繪製距離的 1%
+            value.entityShadowDistanceMul.0.02 = 陰影繪製距離的 2%
+            value.entityShadowDistanceMul.0.03 = 陰影繪製距離的 3%
+            value.entityShadowDistanceMul.0.04 = 陰影繪製距離的 4%
+            value.entityShadowDistanceMul.0.05 = 陰影繪製距離的 5%
+            value.entityShadowDistanceMul.0.10 = 陰影繪製距離的 10%
+            value.entityShadowDistanceMul.0.15 = 陰影繪製距離的 15%
+            value.entityShadowDistanceMul.0.20 = 陰影繪製距離的 20%
+            value.entityShadowDistanceMul.0.25 = 陰影繪製距離的 25%
+            value.entityShadowDistanceMul.0.30 = 陰影繪製距離的 30%
+            value.entityShadowDistanceMul.0.35 = 陰影繪製距離的 35%
+            value.entityShadowDistanceMul.0.40 = 陰影繪製距離的 40%
+            value.entityShadowDistanceMul.0.45 = 陰影繪製距離的 45%
+            value.entityShadowDistanceMul.0.50 = 陰影繪製距離的 50%
+            value.entityShadowDistanceMul.0.75 = 陰影繪製距離的 75%
+            value.entityShadowDistanceMul.1.00 = 陰影繪製距離的 100%
+
+        option.LIGHTNING_SHADOWS = 閃電陰影
+            value.LIGHTNING_SHADOWS.0 = 關閉
+            value.LIGHTNING_SHADOWS.1 = 僅在夜晚
+            value.LIGHTNING_SHADOWS.2 = 開啟
+        
+        option.LIGHTNING_SHADOWS.comment = 使閃電投射陰影。在閃電活躍時替換月亮和/或太陽陰影。 §c需要自訂月亮旋轉§r
+
+    screen.Sun_and_Moon_Colors = 太陽/月亮顏色
+	option.Sun_temp = 太陽色溫
+	option.Moon_temp = 月亮色溫
+
+    screen.Filtering = 陰影過濾設定
+	option.BASIC_SHADOW_FILTER = 基礎陰影濾波
+        option.SHADOW_FILTER_SAMPLE_COUNT = 基礎陰影濾波取樣數
+        option.Min_Shadow_Filter_Radius = 最小陰影過濾半徑
+        option.Variable_Penumbra_Shadows = 可變半影陰影（PCSS）
+        option.VPS_Search_Samples = VPS 過濾取樣數
+        option.Max_Shadow_Filter_Radius = 最大陰影過濾半徑
+        option.Max_Filter_Depth = 太陽大小因子
+        
+    screen.LPV = 洪水填充彩色光照 (FloodFill) - §c需要 IRIS§r
+        option.LPV_ENABLED = 啟用
+        option.LPV_SIZE = 大小
+            value.LPV_SIZE.6 = 小 [64]
+            value.LPV_SIZE.7 = 中 [128]
+            value.LPV_SIZE.8 = 大 [256]
+        option.LPV_SATURATION = 光源飽和度 (Light Saturation)
+            suffix.LPV_SATURATION=%
+        option.LPV_TINT_SATURATION = 色調飽和度
+            suffix.LPV_TINT_SATURATION=%
+        option.LPV_NORMAL_STRENGTH = 法線強度
+            suffix.LPV_NORMAL_STRENGTH = %
+            value.LPV_NORMAL_STRENGTH.0 = 關閉
+        option.LPV_ENTITY_LIGHTS = 實體光源
+        option.LPV_REDSTONE_LIGHTS = 紅石光源
+        option.LPV_COLORED_CANDLES = 彩色蠟燭
+        option.LPV_NOSHADOW_HACK = Iris <= 1.7.0 修復
+        option.LPV_VL_FOG_ILLUMINATION = 霧光傳播
+            value.LPV_VL_FOG_ILLUMINATION.0 = 關閉
+            value.LPV_VL_FOG_ILLUMINATION.1 = 僅限室內
+            value.LPV_VL_FOG_ILLUMINATION.2 = 開啟
+        option.LPV_VL_FOG_ILLUMINATION_BRIGHTNESS = 霧光傳播亮度
+            suffix.LPV_VL_FOG_ILLUMINATION_BRIGHTNESS=%
+        option.LPV_VL_FOG_ILLUMINATION_HANDHELD_WATER = 水下手持光源霧光傳播
+	    option.VANILLA_LIGHTMAP_MASK = 原版光照圖遮罩
+        option.LPV_HANDHELD_SHADOWS = 手持光源陰影
+        option.LPV_HANDHELD_SHADOWS_STRENGTH = 手持光源陰影強度
+        option.LPV_HANDHELD_SHADOWS_QUALITY = 手持光源陰影品質
+            value.LPV_HANDHELD_SHADOWS_QUALITY.0 = 低
+            value.LPV_HANDHELD_SHADOWS_QUALITY.1 = 高
+
+
+screen.Ambient_light = 環境光
+    option.AO_in_sunlight = 日光中的環境光遮蔽（AO）
+    option.AO_Strength = 環境光遮蔽倍率
+    option.GI_Strength = 全域光照倍率
+    option.HQ_SSGI = 長距離光線步進（遠距光線步進）
+    option.UseQuarterResDepth = 四分之一解析度深度緩衝採樣 (1/4 Res Depth Sampling)
+    option.Hand_Held_lights = 手持光源
+    option.SKY_CONTRIBUTION_IN_SSRT = 高品質環境光
+    option.ambientOcclusionLevel = 原版環境光遮蔽強度 (Vanilla AO Amount)
+    option.ambient_brightness = 環境光亮度
+    option.MIN_LIGHT_AMOUNT = 外部最小光照亮度
+    option.MIN_LIGHT_AMOUNT_INSIDE = 內部最小光照亮度
+    option.indirect_effect = 間接照明
+            value.indirect_effect.VANILLA_AO = 原版 AO
+            value.indirect_effect.SSAO_FILTERED = SSAO
+            value.indirect_effect.SSAO_HQ = HQ SSAO
+            value.indirect_effect.GTAO = GTAO
+            value.indirect_effect.SSRT_AO = SSRT (僅AO) - §c視覺雜訊§r
+            value.indirect_effect.SSRT_AO_GI = SSRT (AO + GI) - §c視覺雜訊§r
+    option.RAY_COUNT = 光線追蹤數量
+        option.RAY_COUNT.comment = 有助於減少 SSRT 的視覺雜訊。 §a效能影響：§r 高
+    option.RAY_STEPS = 光線步進數
+    option.GTAO_SLICES = GTAO 品質
+	option.HANDHELD_LIGHT_RANGE = 手持光源範圍
+
+    screen.SSRT_SETTINGS = SSRT 設定
+
+    screen.Ambient_Colors =  環境光顏色
+        option.AmbientLight_R = 紅色量
+        option.AmbientLight_G = 綠色量
+        option.AmbientLight_B = 藍色量
+        option.SeparateAmbientColorRain = 雨/雷暴期間使用獨立的環境光顏色
+        option.AmbientLightRain_R = 紅色 (雨天)
+        option.AmbientLightRain_G = 綠色 (雨天)
+        option.AmbientLightRain_B = 藍色 (雨天)
+        option.AmbientLightThunder_R = 紅色 (雷暴)
+        option.AmbientLightThunder_G = 綠色 (雷暴)
+        option.AmbientLightThunder_B = 藍色 (雷暴)
+        option.AmbientLightEnd_R = 紅色 (終界)
+        option.AmbientLightEnd_G = 綠色 (終界)
+        option.AmbientLightEnd_B = 藍色 (終界)
+        option.ambient_colortype = 著色類型
+            value.ambient_colortype.0 = 色溫
+            value.ambient_colortype.1 = RGB
+    
+    screen.Torch_Colors = 火把顏色
+        option.TORCH_AMOUNT = 火把亮度
+        option.TORCH_R = 紅色量
+        option.TORCH_G = 綠色量
+        option.TORCH_B = 藍色量
+        
+
+screen.Fog = 霧設定
+    option.VL_RENDER_SCALE = 體積霧渲染縮放
+    option.VL_SAMPLES = 體積霧取樣數
+    option.FOG_START_HEIGHT = 霧起始高度
+    option.BLOOMY_FOG = 霧氣泛光強度
+    option.UNDERWATER_BLOOMY_FOG = 水下霧氣泛光強度
+    option.Haze_amount = 大氣散射密度
+    option.RainFog_amount = 雨霧密度
+    option.BorderFog = 區塊邊界霧
+
+    screen.TOD_fog = 全天霧氣
+        option.TOD_Fog_mult = 霧氣密度倍率
+        option.Morning_Uniform_Fog = 清晨 - 霧氣密度
+        option.Noon_Uniform_Fog = 正午 - 霧氣密度
+        option.Evening_Uniform_Fog = 傍晚 - 霧氣密度
+        option.Night_Uniform_Fog = 夜晚 - 霧氣密度
+        option.Morning_Cloudy_Fog = 清晨 - 雲霧密度
+        option.Noon_Cloudy_Fog = 正午 - 雲霧密度
+        option.Evening_Cloudy_Fog = 傍晚 - 雲霧密度
+        option.Night_Cloudy_Fog = 夜晚 - 雲霧密度
+
+        option.PER_BIOME_ENVIRONMENT = 生態域特色環境
+        option.BorderFogIntensity = 邊界霧密度
+
+    screen.Cave_Fog = 洞穴霧氣
+        option.Cave_Fog = 洞穴霧氣
+        option.CAVE_FOG = 洞穴霧氣
+        option.CaveFogFallOff = 洞穴霧氣漸消曲線
+        option.CaveFogColor_R = 洞穴霧氣紅色比重
+        option.CaveFogColor_G = 洞穴霧氣綠色比重
+        option.CaveFogColor_B = 洞穴霧氣藍色比重
+
+    screen.END_AND_NETHER_FOG = 地獄/終界霧
+        option.END_STORM_DENSTIY = 終界風暴密度
+        option.END_LIGHTNING = 終界霧中閃電
+        option.END_HAZE_DENSTIY = 終界霧霾密度
+        option.NETHER_PLUME_DENSITY = 地獄煙柱密度
+        option.NETHER_CEILING_SMOKE_DENSITY = 地獄頂部煙霧密度
+        option.NETHER_HAZE_DENSITY = 地獄霧霾密度
+        
+        screen.FOG_LIGHTING_COLORS = 霧顏色
+            option.VORTEX_LIGHT_COL_R = 主終界島霧/光 紅
+            option.VORTEX_LIGHT_COL_G = 主終界島霧/光 綠
+            option.VORTEX_LIGHT_COL_B = 主終界島霧/光 藍
+            option.END_LIGHTNING_COL_R = 終界閃電 紅
+            option.END_LIGHTNING_COL_G = 終界閃電 綠
+            option.END_LIGHTNING_COL_B = 終界閃電 藍
+
+screen.Clouds = 雲設定
+    option.VOLUMETRIC_CLOUDS = 體積雲
+    option.HQ_CLOUD_UPSAMPLE = 更準確的升頻
+    option.HQ_CLOUD_UPSAMPLE.comment = 減少邊緣的光洩漏。 §a效能影響：§r 低
+    option.CLOUDS_QUALITY = 雲解析度縮放
+    option.CLOUDS_SHADOWS = 雲陰影
+    option.TERRAIN_SHADOW_ON_CLOUDS = 地形在雲上的陰影
+        option.TERRAIN_SHADOW_ON_CLOUDS.comment = 地形是否可以在積雲上投射陰影。 §a效能影響：§r 低到中
+    option.CLOUD_SAMPLES = 雲採樣數
+        option.CLOUD_SAMPLES.comment = 調整體積雲的取樣數量。在雲上獲得更低的地形陰影雜訊時特別有用。 §a效能影響：§r 低到非常高
+    option.CLOUD_SHADOW_AMOUNT = 雲陰影強度
+    suffix.CLOUD_SHADOW_AMOUNT = %
+    option.CLOUD_MOVEMENT_TYPE = 雲層移動類型
+        value.CLOUD_MOVEMENT_TYPE.0 = 依據遊戲時間
+        value.CLOUD_MOVEMENT_TYPE.1 = 依據真實時間
+    option.Cloud_Speed = 雲速度
+    option.Rain_coverage = 雨雲覆蓋率
+    option.Thunder_coverage = 雷雲覆蓋率
+    option.Daily_Weather = 每日天氣
+    value.CLOUD_PHASE.0 = Henyey-Greenstein
+    value.CLOUD_PHASE.1 = Cornette-Shanks
+    value.CLOUD_PHASE.2 = Henyey-Greenstein-Draine
+
+    screen.CumulusClouds        = 積雲
+        option.CloudLayer0          = 小積雲
+        option.CloudLayer0_coverage = 覆蓋率
+        option.CloudLayer0_density  = 密度
+        option.CloudLayer0_height   = 高度
+        option.CloudLayer0_tallness = 垂直厚度
+        option.CloudLayer0_scale    = 比例
+        option.CloudLayer0_detail   = 細節
+        option.CloudLayer0_distance = 距離
+
+        option.CloudLayer1          = 大積雲
+        option.CloudLayer1_coverage = 覆蓋率
+        option.CloudLayer1_density  = 密度
+        option.CloudLayer1_height   = 高度
+        option.CloudLayer1_tallness = 垂直厚度
+        option.CloudLayer1_scale    = 比例
+        option.CloudLayer1_detail   = 細節
+        option.CloudLayer1_distance = 距離
+
+        option.CUMULONIMBUS = 積雨雲
+            value.CUMULONIMBUS.0 = 關閉
+            value.CUMULONIMBUS.1 = 雷暴期間/之後
+            value.CUMULONIMBUS.2 = 始終開啟
+        option.CUMULONIMBUS_FADE_TIME = 淡出時間
+            value.CUMULONIMBUS_FADE_TIME.0.0 = 無
+            value.CUMULONIMBUS_FADE_TIME.0.25 = 15 秒
+            value.CUMULONIMBUS_FADE_TIME.0.5 = 30 秒
+            value.CUMULONIMBUS_FADE_TIME.0.75 = 45 秒
+            value.CUMULONIMBUS_FADE_TIME.1.0 = 60 秒
+            value.CUMULONIMBUS_FADE_TIME.1.25 = 75 秒
+            value.CUMULONIMBUS_FADE_TIME.1.5 = 90 秒
+            value.CUMULONIMBUS_FADE_TIME.1.75 = 105 秒
+            value.CUMULONIMBUS_FADE_TIME.2.0 = 2 分鐘
+            value.CUMULONIMBUS_FADE_TIME.3.0 = 3 分鐘
+            value.CUMULONIMBUS_FADE_TIME.4.0 = 4 分鐘
+            value.CUMULONIMBUS_FADE_TIME.5.0 = 5 分鐘
+            value.CUMULONIMBUS_FADE_TIME.6.0 = 6 分鐘
+            value.CUMULONIMBUS_FADE_TIME.7.0 = 7 分鐘
+            value.CUMULONIMBUS_FADE_TIME.8.0 = 8 分鐘
+            value.CUMULONIMBUS_FADE_TIME.9.0 = 9 分鐘
+            value.CUMULONIMBUS_FADE_TIME.10.0 = 10 分鐘
+
+        option.CUMULONIMBUS_LIGHTNING = 積雨雲閃電
+        option.CUMULONIMBUS_LIGHTNING_BRIGHTNESS = 閃電亮度
+            suffix.CUMULONIMBUS_LIGHTNING_BRIGHTNESS = %
+        option.CUMULONIMBUS_LIGHTNING_DELAY = 閃電延遲
+            suffix.CUMULONIMBUS_LIGHTNING_DELAY = 秒
+
+            screen.CUSTOM_LIGHTNING = 自訂閃電
+                option.CUSTOM_LIGHTNING_POS = 自訂位置
+                //option.CUSTOM_LIGHTNING_POS_X = X
+                //option.CUSTOM_LIGHTNING_POS_Y = Y
+                //option.CUSTOM_LIGHTNING_POS_Z = Z
+                option.CUSTOM_LIGHTNING_R = R
+                option.CUSTOM_LIGHTNING_G = G
+                option.CUSTOM_LIGHTNING_B = B
+                option.CUSTOM_LIGHTNING_SCALE = 比例
+                option.CUSTOM_LIGHTNING_TEX = 材質
+                    value.CUSTOM_LIGHTNING_TEX.0 = 隨機
+
+                screen.READ_DESCRIPTION = 閱讀說明
+                    screen.READ_DESCRIPTION.comment = 請在光影配置中設定自訂位置值！
+
+    screen.HighAltitudeClouds   = 高海拔雲
+        option.CloudLayer2          = 高積雲
+        option.CloudLayer2_coverage = 覆蓋率
+        option.CloudLayer2_density  = 密度
+        option.CloudLayer2_height   = 高度
+        option.CloudLayer2_scale    = 比例
+        option.CloudLayer2_distance = 距離
+
+        option.CloudLayer3          = 捲雲
+        option.CloudLayer3_coverage = 覆蓋率
+        option.CloudLayer3_density  = 密度
+        option.CloudLayer3_height   = 高度
+        option.CloudLayer3_scale    = 比例
+        option.CloudLayer3_distance = 距離
+
+screen.DAILY_WEATHER = 每日天氣設定
+option.CHOOSE_RANDOM_WEATHER_PROFILE = 隨機天氣配置
+    screen.DAY0_WEATHER = 第 0 天天氣配置
+        option.DAY0_l0_coverage = 小積雲覆蓋率
+        option.DAY0_l0_density = 小積雲密度
+        option.DAY0_l1_coverage = 大積雲覆蓋率
+        option.DAY0_l1_density = 大積雲密度
+        option.DAY0_l2_coverage = 高積雲覆蓋率
+        option.DAY0_l2_density =  高積雲密度
+        option.DAY0_l3_coverage = 捲雲覆蓋率
+        option.DAY0_l3_density =  捲雲密度
+        option.DAY0_ufog_density = 均勻霧密度
+        option.DAY0_cfog_density = 雲霧密度
+        
+    screen.DAY1_WEATHER = 第 1 天天氣配置
+        option.DAY1_l0_coverage = 小積雲覆蓋率
+        option.DAY1_l0_density = 小積雲密度
+        option.DAY1_l1_coverage = 大積雲覆蓋率
+        option.DAY1_l1_density = 大積雲密度
+        option.DAY1_l2_coverage = 高積雲覆蓋率
+        option.DAY1_l2_density =  高積雲密度
+        option.DAY1_l3_coverage = 捲雲覆蓋率
+        option.DAY1_l3_density =  捲雲密度
+        option.DAY1_ufog_density = 均勻霧密度
+        option.DAY1_cfog_density = 雲霧密度
+        
+    screen.DAY2_WEATHER = 第 2 天天氣配置
+        option.DAY2_l0_coverage = 小積雲覆蓋率
+        option.DAY2_l0_density = 小積雲密度
+        option.DAY2_l1_coverage = 大積雲覆蓋率
+        option.DAY2_l1_density = 大積雲密度
+        option.DAY2_l2_coverage = 高積雲覆蓋率
+        option.DAY2_l2_density =  高積雲密度
+        option.DAY2_l3_coverage = 捲雲覆蓋率
+        option.DAY2_l3_density =  捲雲密度
+        option.DAY2_ufog_density = 均勻霧密度
+        option.DAY2_cfog_density = 雲霧密度
+
+    screen.DAY3_WEATHER = 第 3 天天氣配置
+        option.DAY3_l0_coverage = 小積雲覆蓋率
+        option.DAY3_l0_density = 小積雲密度
+        option.DAY3_l1_coverage = 大積雲覆蓋率
+        option.DAY3_l1_density = 大積雲密度
+        option.DAY3_l2_coverage = 高積雲覆蓋率
+        option.DAY3_l2_density =  高積雲密度
+        option.DAY3_l3_coverage = 捲雲覆蓋率
+        option.DAY3_l3_density =  捲雲密度
+        option.DAY3_ufog_density = 均勻霧密度
+        option.DAY3_cfog_density = 雲霧密度
+
+    screen.DAY4_WEATHER = 第 4 天天氣配置
+        option.DAY4_l0_coverage = 小積雲覆蓋率
+        option.DAY4_l0_density = 小積雲密度
+        option.DAY4_l1_coverage = 大積雲覆蓋率
+        option.DAY4_l1_density = 大積雲密度
+        option.DAY4_l2_coverage = 高積雲覆蓋率
+        option.DAY4_l2_density =  高積雲密度
+        option.DAY4_l3_coverage = 捲雲覆蓋率
+        option.DAY4_l3_density =  捲雲密度
+        option.DAY4_ufog_density = 均勻霧密度
+        option.DAY4_cfog_density = 雲霧密度
+
+    screen.DAY5_WEATHER = 第 5 天天氣配置
+        option.DAY5_l0_coverage = 小積雲覆蓋率
+        option.DAY5_l0_density = 小積雲密度
+        option.DAY5_l1_coverage = 大積雲覆蓋率
+        option.DAY5_l1_density = 大積雲密度
+        option.DAY5_l2_coverage = 高積雲覆蓋率
+        option.DAY5_l2_density =  高積雲密度
+        option.DAY5_l3_coverage = 捲雲覆蓋率
+        option.DAY5_l3_density =  捲雲密度
+        option.DAY5_ufog_density = 均勻霧密度
+        option.DAY5_cfog_density = 雲霧密度
+
+    screen.DAY6_WEATHER = 第 6 天天氣配置
+        option.DAY6_l0_coverage = 小積雲覆蓋率
+        option.DAY6_l0_density = 小積雲密度
+        option.DAY6_l1_coverage = 大積雲覆蓋率
+        option.DAY6_l1_density = 大積雲密度
+        option.DAY6_l2_coverage = 高積雲覆蓋率
+        option.DAY6_l2_density =  高積雲密度
+        option.DAY6_l3_coverage = 捲雲覆蓋率
+        option.DAY6_l3_density =  捲雲密度
+        option.DAY6_ufog_density = 均勻霧密度
+        option.DAY6_cfog_density = 雲霧密度
+
+    screen.DAY7_WEATHER = 第 7 天天氣配置
+        option.DAY7_l0_coverage = 小積雲覆蓋率
+        option.DAY7_l0_density = 小積雲密度
+        option.DAY7_l1_coverage = 大積雲覆蓋率
+        option.DAY7_l1_density = 大積雲密度
+        option.DAY7_l2_coverage = 高積雲覆蓋率
+        option.DAY7_l2_density =  高積雲密度
+        option.DAY7_l3_coverage = 捲雲覆蓋率
+        option.DAY7_l3_density =  捲雲密度
+        option.DAY7_ufog_density = 均勻霧密度
+        option.DAY7_cfog_density = 雲霧密度
+
+    screen.DAY8_WEATHER = 第 8 天天氣配置
+        option.DAY8_l0_coverage = 小積雲覆蓋率
+        option.DAY8_l0_density = 小積雲密度
+        option.DAY8_l1_coverage = 大積雲覆蓋率
+        option.DAY8_l1_density = 大積雲密度
+        option.DAY8_l2_coverage = 高積雲覆蓋率
+        option.DAY8_l2_density =  高積雲密度
+        option.DAY8_l3_coverage = 捲雲覆蓋率
+        option.DAY8_l3_density =  捲雲密度
+        option.DAY8_ufog_density = 均勻霧密度
+        option.DAY8_cfog_density = 雲霧密度
+
+    screen.DAY9_WEATHER = 第 9 天天氣配置
+        option.DAY9_l0_coverage = 小積雲覆蓋率
+        option.DAY9_l0_density = 小積雲密度
+        option.DAY9_l1_coverage = 大積雲覆蓋率
+        option.DAY9_l1_density = 大積雲密度
+        option.DAY9_l2_coverage = 高積雲覆蓋率
+        option.DAY9_l2_density =  高積雲密度
+        option.DAY9_l3_coverage = 捲雲覆蓋率
+        option.DAY9_l3_density =  捲雲密度
+        option.DAY9_ufog_density = 均勻霧密度
+        option.DAY9_cfog_density = 雲霧密度
+        
+
+screen.Climate = 氣候設定
+screen.Seasons = 季節
+    option.Seasons = 季節顏色
+    option.Season_Length = 季節長度 (天數)
+	option.Start_Season = 起始季節
+		value.Start_Season.0 = 夏季 (預設)
+		value.Start_Season.1 = 秋季
+		value.Start_Season.2 = 冬季
+		value.Start_Season.3 = 春季
+    option.Snowy_Winter = 冬季下雪
+    screen.Summer_colors = 夏季顏色
+        option.Summer_R = 紅色量
+        option.Summer_G = 綠色量
+        option.Summer_B = 藍色量
+        option.Summer_Leaf_R = 樹葉紅色佔比
+        option.Summer_Leaf_G = 樹葉綠色佔比
+        option.Summer_Leaf_B = 樹葉藍色佔比
+
+    screen.Fall_colors = 秋季顏色
+        option.Fall_R = 紅色量
+        option.Fall_G = 綠色量
+        option.Fall_B = 藍色量
+        option.Fall_Leaf_R = 樹葉紅色佔比
+        option.Fall_Leaf_G = 樹葉綠色佔比
+        option.Fall_Leaf_B = 樹葉藍色佔比
+
+    screen.Winter_colors = 冬季顏色
+        option.Winter_R = 紅色量
+        option.Winter_G = 綠色量
+        option.Winter_B = 藍色量
+        option.Winter_Leaf_R = 樹葉紅色佔比
+        option.Winter_Leaf_G = 樹葉綠色佔比
+        option.Winter_Leaf_B = 樹葉藍色佔比
+
+    screen.Spring_colors = 春季顏色
+        option.Spring_R = 紅色量
+        option.Spring_G = 綠色量
+        option.Spring_B = 藍色量
+        option.Spring_Leaf_R = 樹葉紅色佔比
+        option.Spring_Leaf_G = 樹葉綠色佔比
+        option.Spring_Leaf_B = 樹葉藍色佔比
+        
+    screen.SWAMP = 沼澤
+        option.SWAMP_ENV = 沼澤環境
+        option.SWAMP_UNIFORM_DENSITY = 均勻霧密度
+        option.SWAMP_CLOUDY_DENSITY = 雲霧密度
+        option.SWAMP_R = 紅色量
+        option.SWAMP_G = 綠色量
+        option.SWAMP_B = 藍色量
+
+    screen.JUNGLE = 叢林
+        option.JUNGLE_ENV = 叢林環境
+        option.JUNGLE_UNIFORM_DENSITY = 均勻霧密度
+        option.JUNGLE_CLOUDY_DENSITY = 雲霧密度
+        option.JUNGLE_R = 紅色量
+        option.JUNGLE_G = 綠色量
+        option.JUNGLE_B = 藍色量
+
+    screen.DARKFOREST = 黑森林
+        option.DARKFOREST_ENV = 黑森林環境
+        option.DARKFOREST_UNIFORM_DENSITY = 均勻霧密度
+        option.DARKFOREST_CLOUDY_DENSITY = 雲霧密度
+        option.DARKFOREST_R = 紅色量
+        option.DARKFOREST_G = 綠色量
+        option.DARKFOREST_B = 藍色量
+
+    screen.PALE_GARDEN = 蒼白花園
+        option.PALE_GARDEN_ENV = 蒼白花園環境
+            option.PALE_GARDEN_ENV.comment = 僅切換此生態域類型的環境。即使此項已停用，其他生態域環境仍保持活躍。
+        option.PALE_GARDEN_UNIFORM_DENSITY = 均勻霧密度
+        option.PALE_GARDEN_CLOUDY_DENSITY = 雲霧密度
+        option.PALE_GARDEN_R = 紅色量
+        option.PALE_GARDEN_G = 綠色量
+        option.PALE_GARDEN_B = 藍色量
+
+    option.SNOW_STORMS = 雪暴
+    option.SAND_STORMS = 沙塵暴
+
+screen.World = 世界
+    screen.Sky_coefficients = 大氣光學散射係數 (Sky Coefficients)
+    option.Sky_Brightness = 亮度
+    option.sky_coefficientRayleighR = 瑞利散射 (Rayleigh Scattering)紅色比重
+    option.sky_coefficientRayleighG = 瑞利散射 (Rayleigh Scattering)綠色比重
+    option.sky_coefficientRayleighB = 瑞利散射 (Rayleigh Scattering)藍色比重
+    option.sky_coefficient米氏散射 (Mie Scattering)R = 米氏散射 (Mie Scattering)紅色比重 
+    option.sky_coefficient米氏散射 (Mie Scattering)G = 米氏散射 (Mie Scattering)綠色比重
+    option.sky_coefficient米氏散射 (Mie Scattering)B = 米氏散射 (Mie Scattering)藍色比重
+
+
+    screen.Water = 水設定
+        option.FAKE_REFRACTION_EFFECT = 水與透明材質折射 (Refraction)
+        option.FAKE_DISPERSION_EFFECT = 水體色散 (Water Dispersion)
+        option.REFRACTION_SMUDGE = 折射模糊散景 (Refraction Smudge)
+        option.Dirt_Amount = 汙垢量
+        option.Water_Top_Layer = 海洋 Y 座標
+        option.WATER_WAVE_STRENGTH = 波浪強度
+        option.WATER_WAVE_SPEED = 波浪速度
+        option.WATER_INTERACTION = 玩家與水互動
+            option.WATER_INTERACTION.comment = 指定玩家應如何與水互動。 §a簡單§r：攝影機進入/離開水時產生小波浪效果。 §a波浪模擬§r：玩家移動（包括在船上時）會在水上產生波浪。
+            value.WATER_INTERACTION.0 = 關閉
+            value.WATER_INTERACTION.1 = 簡單
+            value.WATER_INTERACTION.2 = 波浪模擬
+        option.WATER_SIM_SCALE = 波浪模擬解析度
+            option.WATER_SIM_SCALE.comment = 波浪模擬的整體解析度。 §a效能影響：§r 中到高
+            value.WATER_SIM_SCALE.0 = 50%
+            value.WATER_SIM_SCALE.1 = 100%
+            value.WATER_SIM_SCALE.2 = 200%
+        option.WATER_SIM_DISTANCE = 波浪模擬距離
+            option.WATER_SIM_DISTANCE.comment = 從玩家開始模擬波浪的距離。 §a效能影響：§r 低到高
+            value.WATER_SIM_DISTANCE.1 = 50%
+            value.WATER_SIM_DISTANCE.2 = 100%
+            value.WATER_SIM_DISTANCE.3 = 150%
+            value.WATER_SIM_DISTANCE.4 = 200%
+        option.WATER_SIM_FRAMERATE = 波浪模擬幀率
+            option.WATER_SIM_FRAMERATE.comment = 模擬計算所用的幀率。30 FPS 時精度會降低。 §c如果遊戲運行幀數過低，波浪模擬將會變慢。 §c請將此選項設為電腦能穩定維持的幀數。 §a效能影響：§r 低到中
+            value.WATER_SIM_FRAMERATE.30 = 30 FPS
+            value.WATER_SIM_FRAMERATE.60 = 60 FPS
+        option.PIXELATED_WAVES = 像素化波浪模擬
+            option.PIXELATED_WAVES.comment = 波浪是否應該平滑 §a效能影響：§r 無
+        screen.WATER_SIM_DISCLAIMER = §c 如果使用波浪模擬，請閱讀這些設定的描述
+        option.WATER_SIM_STRENGTH = 波浪模擬強度
+
+        option.PATCHY_WAVE_BLEND = 斑駁波浪混合
+        option.WAVES_A_RADIUS = 波浪半徑 1
+        option.WAVES_B_RADIUS = 波浪半徑 2
+        option.WAVE_DETAIL = 波浪細節
+        option.SNELLS_WINDOW = 史奈爾之窗 (Snell's Window)
+        option.MINIMUM_WATER_ABSORBANCE = 最小水吸收率
+            value.MINIMUM_WATER_ABSORBANCE.-1 = 自動
+
+        option.FAKE_REFRACTION_AMOUNT = 折射量
+        value.FAKE_REFRACTION_AMOUNT.0 = 關閉
+           value.FAKE_REFRACTION_AMOUNT.1 = 0.25x
+           value.FAKE_REFRACTION_AMOUNT.2 = 0.50x
+           value.FAKE_REFRACTION_AMOUNT.3 = 0.75x
+           value.FAKE_REFRACTION_AMOUNT.4 = 1.00x
+           value.FAKE_REFRACTION_AMOUNT.5 = 1.25x
+           value.FAKE_REFRACTION_AMOUNT.6 = 1.50x
+           value.FAKE_REFRACTION_AMOUNT.7 = 1.75x
+           value.FAKE_REFRACTION_AMOUNT.8 = 2.00x
+
+        option.FAKE_DISPERSION_AMOUNT = 色散量
+        value.FAKE_DISPERSION_AMOUNT.0 = 關閉
+           value.FAKE_DISPERSION_AMOUNT.1 = 0.25x
+           value.FAKE_DISPERSION_AMOUNT.2 = 0.50x
+           value.FAKE_DISPERSION_AMOUNT.3 = 0.75x
+           value.FAKE_DISPERSION_AMOUNT.4 = 1.00x
+           value.FAKE_DISPERSION_AMOUNT.5 = 1.25x
+           value.FAKE_DISPERSION_AMOUNT.6 = 1.50x
+           value.FAKE_DISPERSION_AMOUNT.7 = 1.75x
+           value.FAKE_DISPERSION_AMOUNT.8 = 2.00x
+
+        option.REFRACTION_SMUDGE_AMOUNT = 模糊量
+        value.REFRACTION_SMUDGE_AMOUNT.0 = 關閉
+           value.REFRACTION_SMUDGE_AMOUNT.1 = 0.25x
+           value.REFRACTION_SMUDGE_AMOUNT.2 = 0.50x
+           value.REFRACTION_SMUDGE_AMOUNT.3 = 0.75x
+           value.REFRACTION_SMUDGE_AMOUNT.4 = 1.00x
+           value.REFRACTION_SMUDGE_AMOUNT.5 = 1.25x
+           value.REFRACTION_SMUDGE_AMOUNT.6 = 1.50x
+           value.REFRACTION_SMUDGE_AMOUNT.7 = 1.75x
+           value.REFRACTION_SMUDGE_AMOUNT.8 = 2.00x
+
+        screen.Water_fog_color = 水霧設定
+            option.Dirt_Scatter_R = 散射 紅 (汙垢)
+            option.Dirt_Scatter_G = 散射 綠 (汙垢)
+            option.Dirt_Scatter_B = 散射 藍 (汙垢)
+            option.Dirt_Absorb_R = 吸收 紅 (汙垢)
+            option.Dirt_Absorb_G = 吸收 綠 (汙垢)
+            option.Dirt_Absorb_B = 吸收 藍 (汙垢)
+            option.Water_Absorb_R = 吸收 紅 (水)
+            option.Water_Absorb_G = 吸收 綠 (水)
+            option.Water_Absorb_B = 吸收 藍 (水)
+
+
+screen.Post_Processing = 後處理
+    option.TONEMAP = 色調映射演算法
+    screen.Exposure = 曝光設定
+        option.Manual_exposure_value = 手動曝光級別 §a(停用自動曝光以使用此功能)
+        option.EXPOSURE_MULTIPLIER = 曝光強度
+        option.AUTO_EXPOSURE = 自動曝光
+        option.Exposure_Speed = 自動曝光調整速度
+        option.EXPOSURE_DARKENING = 曝光變暗
+        option.EXPOSURE_BRIGHTENING = 曝光增亮
+    screen.DepthOfField = 景深設定
+    screen.Purkinje_effect = 浦肯野效應設定
+    option.Purkinje_strength = 強度 
+    option.Purkinje_R = 紅
+    option.Purkinje_G = 綠
+    option.Purkinje_B = 藍
+    option.Purkinje_Multiplier = 乘數
+    option.FILM_GRAIN = 底片顆粒
+    option.FILM_GRAIN_STRENGTH = 底片顆粒強度
+    option.SHARPENING = 影像銳化
+        suffix.SHARPENING = %
+        value.SHARPENING.0 = 關閉
+    option.BLOOM_STRENGTH = 泛光效果強度
+    screen.TAA_OPTIONS = 抗鋸齒設定
+        option.SCREENSHOT_MODE = 截圖模式
+        option.TAA = 時間域抗鋸齒 (TAA)
+        option.RESPONSIVE_TAA = 高響應抗鋸齒 §a(使用時間域升頻時請關閉此選項)
+        option.BLEND_FACTOR = 混合因子
+        option.BLEND_FACTOR_DURING_MOVEMENT = 移動時的混合因子
+        option.TAA_UPSCALING = 時間域升頻
+        option.SCALE_FACTOR = 比例因子
+            prefix.SCALE_FACTOR = §f從視窗解析度的
+            suffix.SCALE_FACTOR = x §f升頻
+	screen.COLOR_GRADING = 調色
+		option.LUMINANCE_CURVE = 色調曲線
+		option.LOWER_CURVE = 低光曲線（趾部）
+		option.UPPER_CURVE = 亮部曲線（肩部）
+		option.COLOR_GRADING_ENABLED=調色
+		option.SHADOWS_GRADE_R = 陰影 §c紅
+		option.SHADOWS_GRADE_G = 陰影 §a綠
+		option.SHADOWS_GRADE_B = 陰影 §9藍
+		option.SHADOWS_GRADE_MUL = 暗部亮度
+		option.MIDS_GRADE_R = 中間調 §c紅
+		option.MIDS_GRADE_G = 中間調 §a綠
+		option.MIDS_GRADE_B = 中間調 §9藍
+		option.MIDS_GRADE_MUL = 中間調亮度
+		option.HIGHLIGHTS_GRADE_R = 亮部 §c紅
+		option.HIGHLIGHTS_GRADE_G = 亮部 §a綠
+		option.HIGHLIGHTS_GRADE_B = 亮部 §9藍
+		option.HIGHLIGHTS_GRADE_MUL = 亮部亮度
+
+    screen.Color_Processing = 色彩處理
+        option.SATURATION = 飽和度
+            value.SATURATION.0.0 = 0.0 (中性)
+        option.CROSSTALK = 去飽和度
+            value.CROSSTALK.0.0 = 0.0 (中性)
+        option.WHITE_BALANCE = 白平衡
+            value.WHITE_BALANCE.6500 = 6500 (中性)
+    screen.Camera_Settings = 攝影機設定
+        option.CAMERA_GRIDLINES = 攝影機網格線
+    option.MOTION_BLUR = 動態模糊
+    option.MOTION_BLUR_STRENGTH = 動態模糊強度
+    option.CHROMATIC_ABERRATION = 色差
+    option.CHROMATIC_ABERRATION_STRENGTH = 色差強度
+    option.VIGNETTE = 暗角
+    option.VIGNETTE_STRENGTH = 暗角量
+    screen.FLASHLIGHT_SETTING = 手電筒設定
+    option.FLASHLIGHT = 手電筒
+    option.FLASHLIGHT_SPECULAR = 鏡面反射
+    option.FLASHLIGHT_BOUNCED_INDIRECT = 光照反射
+    option.FLASHLIGHT_FOG_ILLUMINATION = 霧化照明
+    option.FLASHLIGHT_RANGE = 光照範圍
+    option.FLASHLIGHT_SIZE = 光照大小
+    option.FLASHLIGHT_SHADOWS = 陰影
+    option.FLASHLIGHT_R = 紅 
+    option.FLASHLIGHT_G = 綠
+    option.FLASHLIGHT_B = 藍
+    option.FLASHLIGHT_BRIGHTNESS_MULT = 亮度倍數
+    option.FLASHLIGHT_BRIGHTNESS_FALLOFF_MULT = 亮度衰減倍數
+    option.FLASHLIGHT_SHADOWS_STRENGTH = 陰影強度
+
+    screen.GAMEPLAY_EFFECTS = 遊戲畫面效果
+    option.MOTION_AMOUNT = 所有遊戲效果中的運動量
+    option.WATER_ON_CAMERA_EFFECT = 進入/離開水效果
+    option.DAMAGE_TAKEN_EFFECT = 受到傷害效果
+    option.ON_FIRE_DISTORT_EFFECT = 著火扭曲效果
+    option.ON_FIRE_DISTORT_EFFECT_STRENGTH = 著火扭曲效果量
+    option.LOW_HEALTH_EFFECT = 低生命值效果
+    option.LOW_HEALTH_EFFECT_START = 觸發低生命值效果所需的最低生命值
+    option.CRITICALLY_LOW_HEALTH_EFFECT_START = 觸發嚴重低生命值效果所需的最低生命值
+    option.DROWNING_EFFECT = 溺水效果
+
+
+screen.Resource_Pack_Support = 資源包支援
+    screen.SPECULAR = 鏡面反射
+        option.DEFERRED_SPECULAR = 地形反射
+        option.DEFERRED_SSR_QUALITY =^ 環境反射
+            value.DEFERRED_SSR_QUALITY.0 =§c 關閉
+            value.DEFERRED_SSR_QUALITY.1 = 鏡像檢視模式
+            suffix.DEFERRED_SSR_QUALITY = §§ 取樣
+        option.DEFERRED_BACKGROUND_REFLECTION =^ 背景反射
+        option.DEFERRED_ROUGH_REFLECTION =^ 粗糙反射
+        option.DENOISED_REFLECTIONS =^ 降噪粗糙反射
+        option.FORWARD_SPECULAR = 水、玻璃反射
+        option.FORWARD_SSR_QUALITY =^ 環境反射
+            value.FORWARD_SSR_QUALITY.0 =§c 關閉
+            value.FORWARD_SSR_QUALITY.1 = 鏡像檢視模式
+            suffix.FORWARD_SSR_QUALITY = §§ 取樣
+        option.FORWARD_BACKGROUND_REFLECTION =^ 背景反射
+        option.FORWARD_ROUGH_REFLECTION =^ 粗糙反射
+        option.SUN_SPECULAR_MULT = 太陽/月亮反射
+            value.SUN_SPECULAR_MULT.0 =§c 關閉
+            value.SUN_SPECULAR_MULT.1 = 開啟
+            suffix.SUN_SPECULAR_MULT =x 更亮
+        option.ROUGHNESS_THRESHOLD = 反射可見度閾值
+            suffix.ROUGHNESS_THRESHOLD = %
+            value.ROUGHNESS_THRESHOLD.0.0 = 無閾值
+        option.QUARTER_RES_SSR = 以 1/4 解析度取樣深度
+
+    screen.Emissives = 自發光 / 發光材質
+        option.Emissive_Brightness = 自發光亮度
+        option.Emissive_Curve = 發光曲線
+        option.EMISSIVE_TYPE_SETTING = 模式
+            value.EMISSIVE_TYPE_SETTING.0 = 無發光
+            value.EMISSIVE_TYPE_SETTING.1 = 僅硬編碼
+            value.EMISSIVE_TYPE_SETTING.2 = 硬編碼 + Lab 發光
+            value.EMISSIVE_TYPE_SETTING.3 = 僅 Lab 發光
+            value.EMISSIVE_TYPE_SETTING.4 = 自動
+
+
+screen.POM = 視差遮蔽貼圖 / POM
+    option.POM = 視差遮蔽貼圖
+    option.MAX_ITERATIONS = 品質
+    option.POM_DEPTH = 深度
+    option.MAX_DIST = 最遠距離
+    option.Adaptive_Step_length = 動態品質
+    option.Horrible_slope_normals = 糟糕的斜坡法線
+
+screen.Refraction = 折射
+
+screen.Subsurface_Scattering = 次表面散射
+    option.LabSSS_Curve = Lab次表面散射曲線
+    option.MISC_BLOCK_SSS = 隨機方塊的次表面散射
+    option.MOB_SSS = 生物的次表面散射
+    option.Ambient_SSS = 來自天空的次表面散射
+    option.ambientsss_brightness = 天空次表面散射亮度
+    option.SSS_TYPE_SETTING = 模式
+        value.SSS_TYPE_SETTING.0 = 無
+        value.SSS_TYPE_SETTING.1 = 僅硬編碼
+        value.SSS_TYPE_SETTING.2 = 硬編碼 + Lab次表面散射
+        value.SSS_TYPE_SETTING.3 = 僅 Lab次表面散射
+        value.SSS_TYPE_SETTING.4 = 自動
+    option.sss_density_multiplier = 次表面散射密度
+    option.sss_absorbance_multiplier = 次表面散射吸收
+    option.SCREENSPACE_DIRECT_SSS_BLENDING = 螢幕空間次表面散射混合
+
+screen.Porosity = 孔隙度與水坑
+    option.Porosity = 孔隙度
+
+screen.Rainbow_Settings = 彩虹設定
+    option.RAINBOW = 彩虹
+        value.RAINBOW.0 = 關閉
+        value.RAINBOW.1 = 雨後
+        value.RAINBOW.2 = 始終開啟
+    option.RAINBOW_BRIGHTNESS = 彩虹亮度
+    option.RAINBOW_DISTANCE = 彩虹距離
+    option.RAINBOW_TIME = 彩虹淡出時間 (秒)
+    option.RAINBOW_ONLY_BELOW_CLOUDS = 雲上方的彩虹
+
+screen.AURORA_SETTINGS = 極光設定
+    option.AURORA_LOCATION = 極光
+        value.AURORA_LOCATION.0 = 關閉
+        value.AURORA_LOCATION.1 = 僅在雪原生物生態域
+        value.AURORA_LOCATION.2 = 始終開啟
+    option.AURORA_MOON = 僅當月亮低於地平線時顯示極光
+    option.AURORA_CHANCE = 極光機率
+        suffix.AURORA_CHANCE = %
+    option.AURORA_BRIGHTNESS = 極光亮度
+    option.AURORA_R = 極光 紅
+    option.AURORA_G = 極光 綠
+    option.AURORA_B = 極光 藍
+
+option.MATERIAL_AO = 材質環境光遮蔽
+option.NORMAL_MAP_MULT = 法線貼圖係數
+value.NORMAL_MAP_MULT.1.0 = 預設 1.0 §a資源包期望此值
+suffix.NORMAL_MAP_MULT = §c 資源包不期望此值
+
+option.DOF_QUALITY=景深
+    value.DOF_QUALITY.-1=關閉
+    value.DOF_QUALITY.0=六邊形
+    value.DOF_QUALITY.1=低
+    value.DOF_QUALITY.2=中
+    value.DOF_QUALITY.3=高
+    value.DOF_QUALITY.4=極致 (Ultra)
+    value.DOF_QUALITY.5=抖動
+	option.MANUAL_FOCUS=對焦
+    option.DOF_ANAMORPHIC_RATIO=景深變形比
+    option.focal = 焦點大小
+    option.fstop = 光圈大小
+    value.MANUAL_FOCUS.-2=自動對焦
+	value.MANUAL_FOCUS.-1=亮度滑塊
+    option.DoF_Adaptation_Speed = 景深自適應速度
+    option.FAR_BLUR_ONLY = 僅模糊遠景
+    option.REMOVE_HAND_BLUR = 移除手部模糊
+
+	screen.JITTER_DOF=抖動景深設定
+		option.JITTER_STRENGTH=抖動強度
+		option.FOCUS_LASER_COLOR=對焦
+		value.FOCUS_LASER_COLOR.0=紅
+		value.FOCUS_LASER_COLOR.1=綠
+		value.FOCUS_LASER_COLOR.2=藍
+		value.FOCUS_LASER_COLOR.3=粉
+		value.FOCUS_LASER_COLOR.4=黃
+		value.FOCUS_LASER_COLOR.5=白
+    option.DOF_DISPERSION_MULT = 景深分散係數
+
+option.AEROCHROME_MODE=紅外膠片模式
+option.AEROCHROME_PINKNESS=紅外膠片 紅:粉 比率
+option.AEROCHROME_WOOL_ENABLED=紅外膠片影響羊毛
+
+option.AEROCHROME_MODE.comment = 紅外膠片。谷歌搜尋 "Aerochrome" 瞭解其效果。
+option.AEROCHROME_PINKNESS.comment = 越高 = 粉紅。越低 = 紅
+option.AEROCHROME_WOOL_ENABLED.comment = 從技術上講，羊毛物品應該受到影響，但這會破壞許多建築。啟用以更符合技術正確性。
+
+option.EMISSIVE_ORES = 發光礦石
+    value.EMISSIVE_ORES.0 = 關閉
+    value.EMISSIVE_ORES.1 = 開啟 (不覆蓋 labPBR 自發光)
+    value.EMISSIVE_ORES.2 = 開啟 (覆蓋 labPBR 自發光)
+option.EMISSIVE_ORES_STRENGTH = 發光礦石亮度
+
+option.EMISSIVE_TRIMS = 發光裝飾條
+    value.EMISSIVE_TRIMS.0 = 關閉
+    value.EMISSIVE_TRIMS.1 = 開啟 (不覆蓋 labPBR 自發光)
+    value.EMISSIVE_TRIMS.2 = 開啟 (覆蓋 labPBR 自發光)
+option.EMISSIVE_TRIMS_STRENGTH = 發光裝飾條亮度
+
+option.PLANET_CURVATURE = 行星曲率
+option.CURVATURE_AMOUNT = 曲率量
+
+option.VANILLA_CHUNK_FADING = 區塊淡入 §c(Iris 1.10.3+)
+value.VANILLA_CHUNK_FADING.0 = 關閉
+value.VANILLA_CHUNK_FADING.1 = 淡入
+value.VANILLA_CHUNK_FADING.2 = 淡入 + 滑入
+
+option.FISHEYE_EFFECT = 魚眼效果
+option.FISHEYE_STRENGTH = 魚眼強度
+
+option.RAIN_BRIGHTNESS = 雨的亮度
+option.RAIN_MODE = 降雨模式
+    option.RAIN_MODE.comment = 指定原版雨粒子如何加入畫面。
+    value.RAIN_MODE.0 = 增加亮度 (Bliss)
+    value.RAIN_MODE.1 = 使用粒子反照率
+
+screen.scene_controller = 場景控制器
+option.USE_CUSTOM_DIFFUSE_LIGHTING_COLORS = 自訂漫反射顏色
+option.DIRECTLIGHT_DIFFUSE_R = 太陽 R
+option.DIRECTLIGHT_DIFFUSE_G = 太陽 G
+option.DIRECTLIGHT_DIFFUSE_B = 太陽 B
+option.INDIRECTLIGHT_DIFFUSE_R = 環境光 R
+option.INDIRECTLIGHT_DIFFUSE_G = 環境光 G
+option.INDIRECTLIGHT_DIFFUSE_B = 環境光 B
+option.USE_CUSTOM_CLOUD_LIGHTING_COLORS = 自訂雲顏色
+option.DIRECTLIGHT_CLOUDS_R = 太陽 R
+option.DIRECTLIGHT_CLOUDS_G = 太陽 G
+option.DIRECTLIGHT_CLOUDS_B = 太陽 B
+option.INDIRECTLIGHT_CLOUDS_R = 環境光 R
+option.INDIRECTLIGHT_CLOUDS_G = 環境光 G
+option.INDIRECTLIGHT_CLOUDS_B = 環境光 B
+option.USE_CUSTOM_FOG_LIGHTING_COLORS = 自訂霧顏色
+option.DIRECTLIGHT_FOG_R = 太陽 R
+option.DIRECTLIGHT_FOG_G = 太陽 G
+option.DIRECTLIGHT_FOG_B = 太陽 B
+option.INDIRECTLIGHT_FOG_R = 環境光 R
+option.INDIRECTLIGHT_FOG_G = 環境光 G
+option.INDIRECTLIGHT_FOG_B = 環境光 B
+option.USE_CUSTOM_SKY_GROUND_LIGHTING_COLORS = 自訂天空地面顏色
+option.SKY_GROUND_R = 地面 R
+option.SKY_GROUND_G = 地面 G
+option.SKY_GROUND_B = 地面 B
+
+screen.Misc_Settings.comment = 用於除錯或其他有趣功能的隨機設定。
+screen.Sun_and_Moon_Colors.comment = 配置太陽或月亮的顏色。
+option.sunPathRotation.comment = 配置太陽或月亮的角度
+option.sun_illuminance.comment = 配置太陽的亮度
+option.moon_illuminance.comment = 配置月亮的亮度
+
+screen.Direct_Light.comment = 配置與太陽和陰影相關的設定。
+
+screen.Shadows.comment = 根據您的喜好配置來自太陽的陰影。
+    option.SCREENSPACE_CONTACT_SHADOWS.comment = §b這是什麼？§r 這些是用於遠處物體和附近小細節的陰影。 §a效能影響：§r 低到中；解析度越高越昂貴。
+    option.RENDER_ENTITY_SHADOWS.comment =  §b這是什麼？§r 所有類型實體上的陰影，如生物、箱子、旗幟或標誌。 §a效能影響：§r 低到高；當附近有許多實體時非常昂貴。
+    option.shadowMapResolution.comment = 世界上物體投射的太陽陰影的品質。 §a效能影響：§r 中到非常高；陰影必須從太陽的視角第二次渲染 3D 世界，這就是為什麼它會將效能減半。
+    option.shadowDistance.comment = 陰影貼圖可以渲染的最遠距離。 §a效能影響：§r 中到非常高；如果區塊渲染距離高，陰影將變得更加昂貴。
+    screen.Filtering.comment = 配置應用於陰影的過濾效果。
+        option.SHADOW_FILTER_SAMPLE_COUNT.comment = 基礎陰影濾波的品質。此過濾器只是柔化陰影。 §a效能影響：§r 低到中；增加此值應減少陰影邊緣的一些雜訊。
+        option.Min_Shadow_Filter_Radius.comment = 基礎陰影濾波的最大柔和度。
+        option.Variable_Penumbra_Shadows.comment = 這種效果使陰影離投射它的物體越遠就越柔和。此效果用於建立更高品質的陰影和次表面散射。 §a效能影響：§r 低到高；
+        option.VPS_Search_Samples.comment = 可變半影柔和陰影 (PCSS)過濾器的品質。 §a效能影響：§r 低到高；增加此值應減少次表面散射和非常柔和的陰影中的一些雜訊。
+        option.Max_Shadow_Filter_Radius.comment = 陰影在遠離投射它的物體時可以獲得的最大柔和度。
+        option.Max_Filter_Depth.comment = 配置太陽的大小。如果太陽更大，陰影在靠近投射它們的物體會變得更柔和。
+
+screen.Ambient_light.comment = 配置陰影處光照相關的設定
+    option.AO_Strength.comment = 配置由 SSAO、GTAO 和 SSRT 產生的環境光遮蔽的強度。 §b這是什麼？§r 環境光遮蔽是角落等處的小而柔和的陰影。
+    option.GI_Strength.comment = 配置由 SSRT 產生的全域光照的強度。 §b這是什麼？§r 這種情況下的全域光照特指光線從表面反彈到其他區域。
+    option.HQ_SSGI.comment = 切換長距離螢幕空間光線追蹤。這將允許 SSRT 光照從它反彈/投射陰影的地方在場景中傳播得更遠。 §a效能影響：§r 非常高
+    option.Hand_Held_lights.comment = 切換光影端的手持光源。 §a效能影響：§r 非常低
+    option.SKY_CONTRIBUTION_IN_SSRT.comment = 允許 SSRT 考慮整個天空和霧，為陰影區域建立高品質的光照。這可能會引入更多雜訊。 §a效能影響：§r 中
+
+    option.ambientOcclusionLevel.comment = 配置來自原版 Minecraft 的環境光遮蔽的強度。 §b這是什麼？§r 即使未啟用光影，Minecraft 中也有此環境光遮蔽。
+    option.ambient_brightness.comment = 配置陰影處光照的亮度
+    option.MIN_LIGHT_AMOUNT.comment = 配置外部陰影處可能存在的最小光照量。
+    option.MIN_LIGHT_AMOUNT_INSIDE.comment = 配置內部陰影處可能存在的最小光照量。
+    option.indirect_effect.comment = 切換不同類型的特效以提高陰影處光照的品質。 §a效能影響：§r。原版 AO：非常低。 SSAO：低到中。 HQ SSAO：中。 GTAO：中到高。 SSRT：高到非常高 - GI 更慢
+
+    screen.Ambient_Colors.comment = 配置陰影區域的光線顏色。
+    screen.Torch_Colors.comment = 配置火把或其他放置的光源的光線顏色。
+
+    option.LPV_SIZE.comment = 配置彩色光照體積的大小（以方塊為單位）。
+    option.LPV_SATURATION.comment = 配置彩色光照的強度。
+    option.LPV_TINT_SATURATION.comment = 配置半透明方塊對彩色光照著色的強度。
+    option.LPV_NORMAL_STRENGTH.comment = 配置表面法線將影響光照方向的程度。
+    option.LPV_ENTITY_LIGHTS.comment = 允許實體貢獻彩色光照。
+    option.LPV_REDSTONE_LIGHTS.comment = 允許紅石塊貢獻彩色光照。
+    option.LPV_COLORED_CANDLES.comment = 允許彩色蠟燭發出匹配的彩色光照。
+    option.LPV_NOSHADOW_HACK.comment = Iris 1.7.0 及更低版本的修復！允許泛光填充在地獄和終界工作，但停用實體和掉落物光源。
+    option.LPV_VL_FOG_ILLUMINATION.comment = 允許彩色光照照亮其周圍的空氣。為室外啟用它可能在霧取樣數低時看起來奇怪。
+    option.LPV_VL_FOG_ILLUMINATION_BRIGHTNESS.comment = 配置被照亮的霧的亮度。
+    
+screen.Resource_Pack_Support.comment = 一些使用資源包提供資訊的特效。
+    screen.SPECULAR.comment = 配置反射。它們可以使用 LabPBR 資源包提供的資訊。
+        option.DEFERRED_SPECULAR.comment = 在所有固體物件上切換詳細反射。 §b這是什麼？§r "固體"指任何您無法看透的東西，如石頭、木頭、草、樹葉
+        option.FORWARD_SPECULAR.comment = 在所有半透明物件上切換詳細反射。 §b這是什麼？§r "半透明"指您可以看透的東西，如玻璃、水、冰、黏液
+        
+        option.DEFERRED_SSR_QUALITY.comment = 配置在地形上可見的周圍世界反射的品質。 §b這是什麼？§r 配置 SSR/螢幕空間反射為建立世界反射所採用的取樣數。 §b"鏡像檢視模式"§r 字面上就是您看到的影像，但在每個表面上鏡像 - 品質極低。 §a效能影響：§r 低到非常高
+        option.FORWARD_SSR_QUALITY.comment = 配置在水、玻璃和其他半透明物體上可見的周圍世界反射的品質。 §b這是什麼？§r 配置 SSR/螢幕空間反射為建立世界反射所採用的取樣數。 §b"鏡像檢視模式"§r 字面上就是您看到的影像，但在每個表面上鏡像 - 品質極低。 §a效能影響：§r 低到非常高
+
+        option.DEFERRED_BACKGROUND_REFLECTION.comment = 切換在地形上可見的天空、雲或霧的反射。 §b這是什麼？§r 天空、雲和霧等事物的反射。 §a效能影響：§r 低
+        option.FORWARD_BACKGROUND_REFLECTION.comment = 切換在水、玻璃和其他半透明物體上可見的天空、雲或霧的反射。 §b這是什麼？§r 天空、雲和霧等事物的反射。 §a效能影響：§r 低
+       
+        option.DEFERRED_ROUGH_REFLECTION.comment = 切換在地形上可見的粗糙反射。 §b這是什麼？§r 這是基於表面"光滑"程度的反射"散射"程度，非常不光滑的表面會大量散射反射，而光滑的表面看起來像鏡子。 §a效能影響：§r 中
+        option.FORWARD_ROUGH_REFLECTION.comment = 切換在水、玻璃和其他半透明物體上可見的粗糙反射。 §b這是什麼？§r 這是基於表面"光滑"程度的反射"散射"程度，非常不光滑的表面會大量散射反射，而光滑的表面看起來像鏡子。 §a效能影響：§r 中
+        
+        option.ROUGHNESS_THRESHOLD.comment = 配置環境和背景反射停止可見的閾值。 §b這不影響太陽/月亮反射§r。 §a效能影響：§r 高閾值可以提高效能 - 低閾值可能降低效能
+        option.SUN_SPECULAR_MULT.comment = 切換太陽或月亮的反射，或使它們更亮。 §b即使環境和背景反射都停用，這仍然可見§r。 §a效能影響：§r 非常低
+        
+
+screen.Subsurface_Scattering.comment = §b這是什麼？§r 次表面散射是當您將強光放在手上時，它開始發光的情況。太陽實際上對植物、布料、皮膚和其他東西也有同樣的效果。
+    option.SSS_TYPE_SETTING.comment = 配置次表面散射如何應用於世界。  §b硬編碼：§r 光影決定什麼獲得它。 §bLabSSS：§r 資源包決定什麼獲得它。 §a效能影響：§r 非常低
+    option.MOB_SSS.comment = 為生物切換次表面散射。包括玩家。 §a效能影響：§r 非常低
+    option.MISC_BLOCK_SSS.comment = 為可能不適合的隨機方塊切換次表面散射。這主要用於草和沙。 §a效能影響：§r 非常低
+    option.Ambient_SSS.comment = §b這是什麼？§r 來自天空的光線而不是太陽的次表面散射。 §a效能影響：§r 非常低到中；如果啟用了 SSAO，則成本非常低，但如果 SSAO 關閉則成本更高
+    option.ambientsss_brightness.comment = 配置來自天空光線的次表面散射的亮度
+
+screen.Emissives.comment = §b這是什麼？§r 自發光就是某物發出多少光，或者某物發光的程度。
+    option.Emissive_Brightness.comment = 配置材質髮光的亮度。
+    option.EMISSIVE_TYPE_SETTING.comment = 配置材質髮光如何應用於世界。  §b硬編碼：§r 光影決定什麼獲得它。 §bLabSSS：§r 資源包決定什麼獲得它。 §a效能影響：§r 非常低
+    option.Emissive_Curve.comment = 這決定了發光材質達到其最亮點的速度。1.0 是線性的。
+
+screen.POM.comment = 配置使用資源包提供資訊的視差遮蔽貼圖相關的設定。
+    option.POM.comment = §b這是什麼？§r 這種效果嘗試透過使用資源包中的特殊影像在先前沒有 3D 幾何圖形的地方建立 3D 幾何圖形。這種效果基本上只向內推，所以在看陡峭角度時可能存在一些偽影。 §a效能影響：§r 中到高
+    option.MAX_ITERATIONS.comment = 配置視差遮蔽貼圖效果的品質。如果您在近距離觀看時看到單獨的層，增加此值會建立更多層，因此它們將變得更難看到。 §a效能影響：§r 高
+    option.POM_DEPTH.comment = 視差遮蔽貼圖效果可以進入表面的深度。 §a效能影響：§r 非常低
+    option.MAX_DIST.comment = 視差遮蔽貼圖效果可以渲染的離攝影機最遠距離。 §a效能影響：§r 高
+    option.Adaptive_Step_length.comment = 這將增加視覺品質，而無需增加實際品質。如果您看得非常近，或者有一個非常複雜且高度變化劇烈的高度圖，這會導致一些偽影。
+    option.Horrible_slope_normals.comment = 這是一個實現不佳的功能，用於為視差遮蔽貼圖的側面提供表面。我不建議這個。 §a效能影響：§r 低
+    
+screen.Porosity.comment = 配置與溼度和水坑相關的設定
+    option.Porosity.comment = §b這是什麼？§r 孔隙度是對某種材料多孔程度的描述，或者本質上它可以容納多少水。例如，海綿非常多孔；水包含在其中並因此使其變暗。 §a效能影響：§r 低
+    option.PUDDLE_MODE.comment = 切換下雨時的水坑。 §a效能影響：§r 低
+    option.Puddle_Size.comment = 配置水坑的大小。
+
+option.FAKE_REFRACTION_AMOUNT.comment = 配置折射將產生的失真量。 §b這是什麼？§r 您可以將折射視為光在穿過水或玻璃時彎曲，使透過它們觀看的東西看起來被拉伸、擠壓、扭曲。 §a效能影響：§r 非常低
+option.FAKE_DISPERSION_AMOUNT.comment = 配置折射內的色散量。 §b這是什麼？§r 當發生折射時，真正扭曲的部分會出現色差，模擬彩虹或光稜鏡的外觀。 §a效能影響：§r 非常低
+option.REFRACTION_SMUDGE_AMOUNT.comment = 配置折射內的模糊量。 §b這是什麼？§r 當發生折射時，真正扭曲的部分會變得模糊。 §c會導致折射內的視覺雜訊。 §a效能影響：§r 非常低
+
+screen.Fog.comment = 配置與光線行進體積霧或基於距離的霧相關的設定。
+    option.VL_RENDER_SCALE.comment = 配置體積霧和雲的解析度。 §a效能影響：§r 高
+        suffix.VL_RENDER_SCALE = x
+    option.VL_SAMPLES.comment = 配置體積霧的品質。 §a效能影響：§r 高
+    option.BLOOMY_FOG.comment = 配置應用於霧的泛光強度。 §b這是什麼？§r 這種效果使霧看起來柔和，它也有助於隱藏一點雜訊。可能導致詳細邊緣上出現一些可見的閃爍。 §a效能影響：§r 非常低
+    option.Haze_amount.comment = 配置您周圍大氣的密度。 §b這是什麼？§r 這是您在遠處看到的藍色霧霾。
+    option.RainFog_amount.comment = 配置下雨時霧的密度。
+    option.RAYMARCH_CLOUDS_WITH_FOG.comment = §c警告§r：此設定是實驗性的，製作得不是很好！您需要增加霧取樣數以使其與普通雲匹配。當您進入或圍繞雲時切換詳細霧。 §a效能影響：§r 高。
+    option.BorderFog.comment = §b這是什麼？§r 切換一種試圖隱藏區塊載入的霧。但因為天空無處不在，所以很難做好。 §a效能影響：§r 非常非常低
+
+    screen.TOD_fog.comment = 配置在一天中特定時間出現的霧的密度。
+        option.TOD_Fog_mult.comment = 配置在一天中特定時間出現的霧的總量。這不影響大氣霧霾。
+
+    screen.Cave_Fog.comment = 配置當您在非常黑暗的地方（如洞穴）時出現的霧的設定。
+        option.Cave_Fog.comment = 切換在黑暗地方出現的霧。使用光影無法準確判斷您何時在洞穴中，因此此霧可能出現在不是洞穴的地方。 §a效能影響：§r 低
+        option.CaveFogFallOff.comment = 配置霧梯度達到其最亮部分的速度。
+
+screen.Clouds.comment = 配置與光線行進體積雲的相位關的設定。
+    option.VOLUMETRIC_CLOUDS.comment = 切換雲。 §a效能影響：§r 中到高
+    option.CLOUDS_QUALITY.comment = 配置體積雲的解析度。 §a效能影響：§r 高
+    option.CLOUDS_SHADOWS.comment = 切換從雲投射到地面及其下方霧上的陰影。 §a效能影響：§r 低到中
+    option.Daily_Weather.comment = 切換每天變化的天氣。 §b這是什麼？§r 有 10 個天氣配置，光影每天迴圈使用。啟用此功能後，您無法更改任何雲覆蓋設定。 §a效能影響：§r 低
+    option.CHOOSE_RANDOM_WEATHER_PROFILE.comment = §b這是什麼？§r 配置光影從下面的某一天中隨機選擇天氣。關閉此選項時，光影將按順序選擇日期。
+    option.Cloud_Speed.comment = 配置隨著時間推移雲移動的速度。
+    option.Rain_coverage.comment = 配置雨天時雲層的覆蓋率
+    option.Thunder_coverage.comment = 配置雷暴天時雲層的覆蓋率。（也會增加降雨覆蓋！）
+
+
+screen.World.comment = 配置世界中發生的各種事物的設定，從擺動的植物到與水相關的設定。
+    screen.Water.comment = 配置與水相關的設定。
+        option.Dirt_Amount.comment = 配置水中的汙垢量。這控制水內有多少霧。
+        option.Water_Top_Layer.comment = 配置世界中海洋應處的 Y 座標。
+    screen.Water_fog_color.comment = 配置水霧的顏色。
+
+    screen.Weather_Effects = 世界天氣效果
+        option.PUDDLE_MODE = 水坑
+            value.PUDDLE_MODE.0 = 無溼潤
+            value.PUDDLE_MODE.1 = 水坑 + 完全溼潤
+            value.PUDDLE_MODE.2 = 僅水坑
+            value.PUDDLE_MODE.3 = 僅完全溼潤
+        option.Puddle_Size = 水坑大小
+        option.Puddle_Reflection_Sharpness = 水坑反射清晰度
+        option.Puddle_Reflection_Sharpness.comment = 控制水坑的模糊程度。1.0 表示像鏡子一樣
+        option.ShaderSnow = 光影雪效果
+            value.ShaderSnow.0 = 關閉
+            value.ShaderSnow.1 = 下雪時
+            value.ShaderSnow.2 = 在雪原生物生態域時
+            value.ShaderSnow.3 = 始終開啟
+        option.ShaderSnowStrength = 光影雪強度
+        option.RIPPLE_WATER = 水面漣漪
+        option.RIPPLE_PUDDLES = 水坑漣漪
+        option.RIPPLE_INTENSITY = 漣漪強度
+        option.RIPPLE_STRENGTH = 水漣漪強度
+
+screen.Climate.comment = 配置與氣候相關的設定，如季節顏色、每日天氣和特定生物生態域的霧。
+    screen.Seasons.comment = 迴圈變化的季節顏色，夏季、秋季、冬季和春季。
+        option.Seasons.comment = 迴圈變化的季節顏色，夏季、秋季、冬季和春季。 §a效能影響：§r 低
+        option.Season_Length.comment = 控制單個季節持續的時間，以 Minecraft 天數為單位。
+        option.Snowy_Winter.comment = 切換冬季下雪。 §a效能影響：§r 低
+        screen.Summer_colors.comment = 配置夏季植被的顏色。
+        screen.Fall_colors.comment = 配置秋季植被的顏色。
+        screen.Winter_colors.comment = 配置冬季植被的顏色。
+        screen.Spring_colors.comment = 配置春季植被的顏色。
+    
+    option.PER_BIOME_ENVIRONMENT.comment = 切換所有僅出現在某些生物生態域中的特殊環境。 §a效能影響：§r 低
+
+        screen.SWAMP.comment = 配置此生物生態域類型的環境。
+            option.SWAMP_ENV.comment = 僅切換此生物生態域類型的環境。即使停用此環境，其他生物生態域環境仍保持活動狀態。
+
+        screen.JUNGLE.comment = 配置此生物生態域類型的環境。
+            option.JUNGLE_ENV.comment = 僅切換此生物生態域類型的環境。即使停用此環境，其他生物生態域環境仍保持活動狀態。
+
+        screen.DARKFOREST.comment = 配置此生物生態域類型的環境。
+            option.DARKFOREST_ENV.comment = 僅切換此生物生態域類型的環境。即使停用此環境，其他生物生態域環境仍保持活動狀態。
+
+
+screen.Foliage.comment = 配置與植被相關的設定。
+    option.WAVY_PLANTS.comment = 切換植物擺動。 §a效能影響：§r 非常低
+    option.WAVY_STRENGTH.comment = 配置植物擺動的量。
+    option.WAVY_SPEED.comment = 配置植物擺動的速度。
+
+screen.Post_Processing.comment = 配置所有後處理效果的設定，從抗鋸齒到色調映射。
+    screen.Tonemapping.comment = 配置與顏色和色調映射相關的設定。
+    screen.Exposure.comment = 配置與曝光相關的設定。
+    screen.DepthOfField.comment = 配置與景深相關的設定。
+    screen.Purkinje_effect.comment = 配置與浦肯野效應相關的設定。
+    option.SHARPENING.comment = 配置應用於影像的對比度自適應銳化的量。這可以真正帶出因抗鋸齒或升頻取樣而丟失的細節。
+    option.BLOOM_STRENGTH.comment = 配置應用於影像的泛光量。 §b這是什麼？§r 泛光是萬物上的柔和輝光，用來描述某物是否明亮。
+    screen.TAA_OPTIONS.comment = 配置與抗鋸齒相關的設定。
+        option.SCREENSHOT_MODE.comment = §a這不會以任何方式改變圖形品質§r。 切換幀累積以獲得低雜訊影像。 §b這是什麼？§r 它將發生的幀堆疊到生成的下一幀上，所以它就像一張長曝光照片。
+        option.TAA.comment = 切換時間域抗鋸齒。這會消除物體上的所有鋸齒邊緣，柔化影像，並有助於消除許多效果的雜訊。這將導致重影或拖尾，因為它使用過去的幀來獲取世界的額外資訊。 §a效能影響：§r 低
+        option.BLEND_FACTOR.comment = 配置使用了多少幀歷史。高數字意味著它較少依賴幀歷史，因此可能看起來閃爍且有雜訊。低數字更依賴幀歷史，因此可能看起來雜訊更少，但更模糊且拖尾更多。
+        option.TAA_UPSCALING.comment = 切換時間域升頻。這在從較低解析度影像升頻取樣時保留了大量的品質。因此，與典型的升頻相比，您仍然可以擁有高外觀解析度，並且仍然具有更好的效能。
+        option.SCALE_FACTOR.comment = 配置從您解析度的多少分之一進行升頻取樣 - §a不建議低於 0.50x，僅允許用於娛樂！§r
+
+        
+	screen.COLOR_GRADING.comment = 高階調色選項
+		option.LUMINANCE_CURVE.comment = 啟用色調曲線。這獨立於調色並首先應用。
+		option.COLOR_GRADING_ENABLED.comment = 啟用調色。RGB 滑塊不會影響亮度。這在色調曲線之後應用。
+
+option.RESOURCEPACK_SKY.comment = 切換資源包天空支援。配置設定以使用整個資源包天空，或保留光影的太陽和月亮。 §a效能影響：§r 非常低
+option.SKY_GROUND = 大氣地面
+
+option.MATERIAL_AO.comment = 切換基於資源包提供的環境光遮蔽的使用。 §a效能影響：§r 非常低
+option.WATER_WAVE_STRENGTH.comment = 配置波浪出現的強度。
+option.MOONPHASE_BASED_MOONLIGHT.comment = §b這是什麼？§r 每個夜晚，月亮都有不同的光照。此設定根據月亮發光的部分調整月光亮度。當啟用"自訂月亮旋轉"時，此設定無效。 §a效能影響：§r 幾乎為零
+
+option.END_STORM_DENSTIY.comment =  §b這是什麼？§r 這是終界中黑暗多雲的霧。配置終界風暴的密度。
+option.NETHER_PLUME_DENSITY.comment =  §b這是什麼？§r 這是地獄中 thick, glowing smoke towers。配置地獄煙霧的密度。
+
+option.CloudLayer0.comment          = 切換小云層。 §a效能影響：§r 中
+option.CloudLayer0_coverage.comment = 配置這些雲覆蓋天空的多少。
+option.CloudLayer0_density.comment  = 配置這些雲的密度或厚度。
+option.CloudLayer0_height.comment   = 配置這些雲飛行的高度。
+
+option.CloudLayer1.comment          = 切換大雲層。 §a效能影響：§r 中
+option.CloudLayer1_coverage.comment = 配置這些雲覆蓋天空的多少。
+option.CloudLayer1_density.comment  = 配置這些雲的密度或厚度。
+option.CloudLayer1_height.comment   = 配置這些雲飛行的高度。 §c這些不能低於小云§r
+
+option.CloudLayer2.comment          = 切換非常高且薄的雲層。 §a效能影響：§r 低
+option.CloudLayer2_coverage.comment = 配置這些雲覆蓋天空的多少。
+option.CloudLayer2_density.comment  = 配置這些雲的密度或厚度。
+option.CloudLayer2_height.comment   = 配置這些雲飛行的高度。 §c這些不能低於大雲§r
+
+option.SKY_GROUND.comment = §b這是什麼？§r 這是天空的黑暗下半部分，如果 Minecraft 有無限渲染距離，那將是地面。 §a效能影響：§r 非常非常低。 §c由於額外的數學運算，停用此功能比啟用它稍慢一些。§r
+option.SNELLS_WINDOW.comment = §b這是什麼？§r 這是您在水下時看到的黑暗反射圈。這是對現實中發生的稱為"全內反射"的事物的近似。 §a效能影響：§r 非常非常非常小。
+option.entityShadowDistanceMul.comment = §b這是什麼？§r 配置實體陰影應工作的距離。如果您想在高實體區域保留實體陰影並提高效能，這很有用。
+
+screen.PHYSICS_MOD_OCEAN = 物理模組 - §c閱讀按鈕描述§r
+screen.PHYSICS_MOD_OCEAN.comment = 支援物理模組的海洋。該模組在 §b遊戲選項 -> 物理設定 -> 海洋§r 中有其自己的設定。
+
+screen.DISTANT_HORIZONS_SETTINGS = 遙遠地平線 - §c需要 IRIS§r
+option.DH_OVERDRAW_PREVENTION = 過度繪製預防
+option.OVERDRAW_MAX_DISTANCE = 過度繪製預防的最大距離
+    value.OVERDRAW_MAX_DISTANCE.0 = 無限
+    value.OVERDRAW_MAX_DISTANCE.32 = 2 區塊
+    value.OVERDRAW_MAX_DISTANCE.48 = 3 區塊
+    value.OVERDRAW_MAX_DISTANCE.64 = 4 區塊
+    value.OVERDRAW_MAX_DISTANCE.80 = 5 區塊
+    value.OVERDRAW_MAX_DISTANCE.96 = 6 區塊
+    value.OVERDRAW_MAX_DISTANCE.112 = 7 區塊
+    value.OVERDRAW_MAX_DISTANCE.128 = 8 區塊
+    value.OVERDRAW_MAX_DISTANCE.144 = 9 區塊
+    value.OVERDRAW_MAX_DISTANCE.160 = 10 區塊
+    value.OVERDRAW_MAX_DISTANCE.176 = 11 區塊
+    value.OVERDRAW_MAX_DISTANCE.192 = 12 區塊
+    value.OVERDRAW_MAX_DISTANCE.208 = 13 區塊
+    value.OVERDRAW_MAX_DISTANCE.224 = 14 區塊
+    value.OVERDRAW_MAX_DISTANCE.240 = 15 區塊
+    value.OVERDRAW_MAX_DISTANCE.256 = 16 區塊
+option.DH_CHUNK_FADING = 區塊淡入淡出
+    value.DH_CHUNK_FADING.0 = 關閉
+    value.DH_CHUNK_FADING.1 = 地形
+    value.DH_CHUNK_FADING.2 = 地形 + 陰影
+
+option.DH_AMBIENT_OCCLUSION = LOD 區塊上的環境光遮蔽
+option.DH_SUBSURFACE_SCATTERING = LOD 區塊上的次表面散射
+option.DH_SCREENSPACE_REFLECTIONS = LOD 區塊上的螢幕空間反射
+option.DH_TAA_JITTER = DH 時間域抗鋸齒 
+option.DH_NOISE_TEXTURE = DH 噪聲圖
+option.NOISE_RESOLUTION = 噪聲解析度
+option.NOISE_INTENSITY = 噪聲強度
+option.NOISE_DROPOFF = 噪聲衰減
+
+option.DISTANT_HORIZONS_SHADOWMAP = §c(如果您不知道這是什麼，請勿使用)§r DH 陰影貼圖支援
+option.DISTANT_HORIZONS_SHADOWMAP.comment =  §c此設定將破壞效能，將使陰影呈塊狀、閃爍且細節低§r。將陰影繪製距離設定為 32 區塊（或更多）。將陰影貼圖解析度設定為 4096（或更多）。
+option.TOGGLE_VL_FOG = 切換體積霧
+option.TOGGLE_VL_FOG.comment = 一個大按鈕來關閉所有霧。
+
+screen.VOXY_SETTINGS = Voxy 設定
+    option.VOXY_AMBIENT_OCCLUSION = LOD 區塊上的環境光遮蔽
+    option.VOXY_SSS = LOD 區塊上的次表面散射
+    option.VOXY_REFLECTIONS = LOD 區塊上的螢幕空間反射
+
+screen.PHOTONICS_SETTINGS = 光子系統設定
+    option.PHOTONICS_ACTIVE = 啟用光子系統
+    option.ENABLE_PHOTONICS_HANDHELD = 光子手持光源
+    option.ENABLE_PHOTONICS_GI = 光子全域光照
+    option.ENABLE_PHOTONICS_BLOCKLIGHT = 光子方塊光源
+    option.PHOTONICS_INDIRECT_BRIGHTNESS = 全域光照亮度
+    option.PHOTONICS_GI_ONLY = 僅全域光照
+    option.PHOTONICS_LIGHTING_MODE = 光照模式
+    option.PHOTONICS_ALPHA_MODE = Alpha 模式
+    option.PHOTONICS_MAX_SAMPLES = 最大取樣數
+    option.PHOTONICS_MAX_LIGHTS = 最大光源數量
+    option.VOXEL_REFLECTIONS_SOLID = 世界空間反射 (地形)
+    option.VOXEL_REFLECTIONS_TRANSLUCENT = 世界空間反射 (水體)
+    option.TRANSLUCENT_IN_REFLECTIONS = 反射中的半透明物體
+    option.MIRROR_IRON = 鐵塊鏡面
+    option.VOXEL_REFLECTIONS_FOG = 反射中的霧
+    option.VOXEL_REFLECTIONS_LPV_FOG = 反射中的泛洪填充霧光傳播
+
+option.TRANSLUCENT_COLORED_SHADOWS.comment = §b這是什麼？§r 此效果允許半透明物體（如染色玻璃）在陽光穿過時為其著色。 §a效能影響：§r 中
+option.MINIMUM_WATER_ABSORBANCE.comment = §b這是什麼？§r 這控制淺水區水的"清澈"程度。自動允許戶外水清澈，但在室內調整為最小值 7，以使其清晰可見。 §d此設定不影響水下視覺效果。
+
+option.SATURATION.comment = §b這是什麼？§r 這控制影像的"色彩鮮豔"程度。負值帶走顏色 - 正值使它們更強烈。
+option.CROSSTALK.comment = §b這是什麼？§r 這是飽和度的修飾符 - 它偏移影像明亮部分的飽和度。
+option.WHITE_BALANCE.comment = §b這是什麼？§r 這控制影像看起來是暖還是冷 - 它平衡藍色和紅色。
+option.TAA_MODE.comment = §b標準：§r 具有最好的抗鋸齒能力 - 使用更多的抖動偏移，但需要更多的幀歷史（設定較低的混合因子），它會閃爍更多並有更多的運動偽影。 §b響應式：§r 具有最差的抗鋸齒能力 - 使用較少的抖動偏移，需要較少的幀歷史（設定較高的混合因子），因此它可以有較少的運動偽影。 §b時間域升頻：§r 以較低的視窗解析度渲染光影，然後縮放回適合螢幕的大小以獲得更好的效能 - 有許多偽影。
+option.MOTION_BLUR.comment = §b這是什麼？§r 此效果使整個螢幕在您移動攝影機或在世界中移動的任何方向模糊。 §a效能影響：§r 非常低
+option.CHROMATIC_ABERRATION.comment = §b這是什麼？§r 此效果使螢幕邊緣出現紅色和藍色的色彩偏移。 §a效能影響：§r 非常非常低
+option.VIGNETTE.comment = §b這是什麼？§r 此效果使螢幕邊緣越靠近邊緣越暗。 §a效能影響：§r 非常非常低
+option.TONEMAP.comment = §b這是什麼？§r 這將內部 HDR 或光影正在進行的任何顏色範圍適配到您的 SDR 顯示器上看起來不錯。它將控制一般的色彩處理 - 對比度、飽和度、白點、黑點、色調偏移、到白色的路徑等 - 每個都有不同的外觀。
+option.DOF_QUALITY.comment = §b這是什麼？§r 這是相機對焦時背景和前景的「失焦」模糊，有時稱為「散景」。 §a效能影響：§r 低到高
+option.MANUAL_FOCUS.comment = §b這是什麼？§r 控制相機鏡頭的對焦方式。「自動對焦」將對準您所看的位置。「亮度滑桿」讓您通過影像設定中的亮度設定手動對焦。「手動對焦」僅對焦於距相機固定距離（以公尺為單位）的固定點。
+option.DOF_ANAMORPHIC_RATIO.comment = §b這是什麼？§r 這是對變形鏡頭畸變的重現，它將拉伸失焦/散景效果。
+option.focal.comment =
+option.aperture.comment =
+option.DoF_Adaptation_Speed.comment = §b這是什麼？§r 控制自動對焦調整到您所看位置的速度。
+option.FAR_BLUR_ONLY.comment = §b這是什麼？§r 使其無法對附近的物體進行失焦模糊，只對遠處的物體生效。
+option.REMOVE_HAND_BLUR.comment = §b這是什麼？§r 移除手部的所有模糊效果。
+option.DOF_DISPERSION_MULT.comment = §b這是什麼？§r 為紅色和藍色添加顏色偏移，製造炫酷效果。
+option.PALE_GARDEN_ENV.comment = 僅切換此生態域類型的環境。即使此項已停用，其他生態域環境仍保持活躍。
+    screen.PALE_GARDEN.comment = 設定此生態域類型的環境。
